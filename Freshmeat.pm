@@ -6,13 +6,13 @@
 # reserved. This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 #
-# $Id: Freshmeat.pm,v 1.12 1999/11/09 02:44:47 localadams Exp $
+# $Id: Freshmeat.pm,v 1.15 2000/03/12 18:56:58 adam Exp $
 #
 
 package Mail::Freshmeat;
 
 use strict;
-require 5.005;
+BEGIN { require 5.005; }
 
 require AutoLoader;
 use Mail::Internet;
@@ -20,7 +20,7 @@ use Carp;
 
 use vars qw($VERSION @ISA);
 @ISA = qw(Mail::Internet AutoLoader);
-$VERSION = '0.91';
+$VERSION = '0.93';
 
 =head1 NAME
 
@@ -82,12 +82,24 @@ sub parse {
                total,\ (\d+)\ articles\ have\ been\ posted\ and\ 
                are\ included\ in\ this\ email\.) \s* $ \n
              $blank_lines
+        (?:
+           (
+             ^ \s* \[\ advertising\ \] \s* $ \n
+             $blank_lines
+           )
+             ((?s:.+?))
+             $blank_lines
+        )?
+           (
              ^ \s* \[\ article\ list\ \] \s* $ \n
              $blank_lines
+           )
              ((?: ^o\ .* $ \n)+)
              $blank_lines
+           (
              ^ \s* \[\ article\ details\ \] \s* $ \n
              $blank_lines
+           )
              ((?s:.+?))
              $blank_lines
              $divider
@@ -96,12 +108,16 @@ sub parse {
             !mx
     or _fatal_bug("Couldn't parse newsletter structure.");
 
-  $self->{fm_summary} = $1;
-  $self->{fm_date}    = $2;
-  $self->{fm_total}   = $3;
-  $self->{fm_list}    = $4;
-  $self->{fm_details} = $5;
-  $self->{fm_footer}  = $6;
+  $self->{fm_summary}        = $1;
+  $self->{fm_date}           = $2;
+  $self->{fm_total}          = $3;
+  $self->{fm_ad_header}      = $4;
+  $self->{fm_ad}             = $5;
+  $self->{fm_list_header}    = $6;
+  $self->{fm_list}           = $7;
+  $self->{fm_details_header} = $8;
+  $self->{fm_details}        = $9;
+  $self->{fm_footer}         = $10;
 
   my @entries = ();
   my $count = 1;
@@ -410,6 +426,25 @@ sub entries {
 
 ##
 
+=item * B<advertisement>
+
+    $ad = $self->advertisement;
+
+Returns the '[ advertisement ]' section of the newsletter, which has
+one entry per line.
+
+=cut
+
+sub advertisement {
+  my $self = shift;
+
+  croak $do_parse_first_err unless $self->{fm_parsed};
+
+  return $self->{fm_ad};
+}
+
+##
+
 =item * B<list>
 
     $list = $self->list;
@@ -636,6 +671,22 @@ sub divider {
 
 ##
 
+=item * B<ad_header>
+
+    print $newsletter->ad_header;
+
+Returns the text for starting the advertisement section.
+
+=cut
+
+sub ad_header {
+  my $self = shift;
+
+  return $self->{fm_ad_header};
+}
+
+##
+
 =item * B<list_header>
 
     print $newsletter->list_header;
@@ -645,7 +696,9 @@ Returns the text for starting the article list section.
 =cut
 
 sub list_header {
-  return "\n  [ article list ]\n\n";
+  my $self = shift;
+
+  return $self->{fm_list_header};
 }
 
 ##
@@ -659,7 +712,9 @@ Returns the text for starting the article details section.
 =cut
 
 sub details_header {
-  return "\n\n  [ article details ]\n\n";
+  my $self = shift;
+  
+  return $self->{fm_details_header};
 }
 
 ##

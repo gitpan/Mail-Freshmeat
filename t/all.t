@@ -3,22 +3,35 @@
 use strict;
 use Test;
 
-BEGIN { plan tests => 14 }
+BEGIN { plan tests => 20 }
 
 use Mail::Freshmeat;
 
-unless (open(LETTER, 't/sample.newsletter')) {
-  die "Failed to open sample.newsletter: $!\n";
+
+my @newsletter = ();
+
+
+unless (open(LETTER1, 't/sample.newsletter.1')) {
+  die "Failed to open sample.newsletter.1: $!\n";
 }
-
 print "Testing new() constructor ...\n";
-my $newsletter = new Mail::Freshmeat(\*LETTER);
-ok($newsletter ? 1 : 0);
+$newsletter[0] = new Mail::Freshmeat(\*LETTER1);
+ok($newsletter[0] ? 1 : 0);
+close(LETTER1);
 
-close(LETTER);
+
+unless (open(LETTER2, 't/sample.newsletter.2')) {
+  die "Failed to open sample.newsletter.2: $!\n";
+}
+print "Testing new() constructor ...\n";
+$newsletter[1] = new Mail::Freshmeat(\*LETTER2);
+ok($newsletter[1] ? 1 : 0);
+close(LETTER2);
+
 
 print "Attempting to parse() ...\n";
-ok($newsletter->parse, 'ok');
+ok($newsletter[0]->parse, 'ok');
+ok($newsletter[1]->parse, 'ok');
 
 my $summary = <<EOF;
 This is the official freshmeat newsletter for Sunday, August 01st. In
@@ -27,13 +40,33 @@ EOF
 chop $summary;
 
 print "Checking summary() ...\n";
-ok($newsletter->summary, $summary);
+ok($newsletter[0]->summary, $summary);
 
 print "Checking date() ...\n";
-ok($newsletter->date,  'Sunday, August 01st');
+ok($newsletter[0]->date,  'Sunday, August 01st');
 
 print "Checking total() ...\n";
-ok($newsletter->total, 122);
+ok($newsletter[0]->total, 122);
+
+my ($ad_header, $advertisement) = (<<EOF, <<EOF);
+  [ advertising ]
+
+EOF
+Vstore.com lets you open your own FREE online store:
+- Choose from over one million products to sell
+- Build repeat business-when customers buy, they buy from you
+- Earn up to 25% of each sale in commissions -- Open your store today!
+
+http://adcenter.in2.com/cgi-bin/click.cgi?tid=24510&cid=vstore-andover_1-0x0&hid+=andover
+EOF
+
+print "Checking advertisement() and ad_header() ...\n";
+
+ok(! $newsletter[0]->ad_header);
+ok(! $newsletter[0]->advertisement);
+ok($newsletter[1]->ad_header, $ad_header);
+ok($newsletter[1]->advertisement, $advertisement);
+
 
 my $slist1 = <<EOF;
 o DizzyICQ 0.14b (Console/Communication)
@@ -161,34 +194,34 @@ o phpAds 1.0.0 (Web/Applications)
 EOF
 
 print "Checking list() ...\n";
-my $slist2 = $newsletter->list;
+my $slist2 = $newsletter[0]->list;
 ok($slist2, $slist1);
 
 print "Checking entries() ...\n";
 
-ok($newsletter->entries->[1]{name}, 'KDevelop');
+ok($newsletter[0]->entries->[1]{name}, 'KDevelop');
 
-ok($newsletter->entries->[16]{version}, '1.22p');
-ok($newsletter->entries->[17]{version}, '0.36b1.2');
-ok($newsletter->entries->[18]{version}, '19990801');
-ok($newsletter->entries->[74]{version}, '4.6 build 1009');
+ok($newsletter[0]->entries->[16]{version}, '1.22p');
+ok($newsletter[0]->entries->[17]{version}, '0.36b1.2');
+ok($newsletter[0]->entries->[18]{version}, '19990801');
+ok($newsletter[0]->entries->[74]{version}, '4.6 build 1009');
 
-ok($newsletter->entries->[74]{category}, 'X11/Graphics');
+ok($newsletter[0]->entries->[74]{category}, 'X11/Graphics');
 
 print "Checking short_entry() ...\n";
 
 my $slist3 = 
-  join '', map { 'o ' . $newsletter->short_entry($_) . "\n" }
-               @{$newsletter->entries};
+  join '', map { 'o ' . $newsletter[0]->short_entry($_) . "\n" }
+               @{$newsletter[0]->entries};
 
 ok($slist3, $slist1);
 
 print "Checking long_entry() ...\n";
 
-my $llist1 = $newsletter->details;
-my $llist2 = join $newsletter->divider,
-                  map { $newsletter->long_entry($_) }
-                      @{$newsletter->entries};
+my $llist1 = $newsletter[0]->details;
+my $llist2 = join $newsletter[0]->divider,
+                  map { $newsletter[0]->long_entry($_) }
+                      @{$newsletter[0]->entries};
 
 # There must be a quicker way to do this
 $llist1 =~ s/[ \t]+/ /g;
@@ -199,3 +232,4 @@ $llist1 =~ s/^[\s*\n]+/\n/gms;
 $llist2 =~ s/^[\s*\n]+/\n/gms;
 
 ok($llist1, $llist2);
+

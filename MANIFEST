@@ -4,6 +4,7 @@ MANIFEST
 Makefile.PL
 Freshmeat.pm
 t/all.t
-t/sample.newsletter
+t/sample.newsletter.1
+t/sample.newsletter.2
 eg/README.fmscore
 ChangeLog

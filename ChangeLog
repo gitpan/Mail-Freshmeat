@@ -1,4 +1,24 @@
-1999-11-09  Adam Spiers  <localadams@pulse.home>
+2000-03-12  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
+
+	* Freshmeat.pm: version 0.93
+
+	* Freshmeat.pm: move require 5.005 to BEGIN block to be more useful
+
+1999-12-08  localadams  <localadams@thelonious.new.ox.ac.uk>
+
+	* t/all.t: Added tests for new advertisement code.
+
+	* Freshmeat.pm:
+	- Added support for advertisement section in parser, and
+	  new access methods.
+	- list_header and details_header now use the original newsletter's
+	  text rather than hardcoded text.
+	- Bumped version to 0.92.
+
+	* t/sample.newsletter.2, MANIFEST:
+	Added second sample newsletter for testing adverts code.
+
+1999-11-09  localadams  <localadams@thelonious.new.ox.ac.uk>
 
 	* Freshmeat.pm: Bumped version to 0.91.
 
@@ -6,13 +26,13 @@
 
 	* README: Fixed CPAN url
 
-1999-11-02  Adam Spiers  <localadams@pulse.home>
+1999-11-02  localadams  <localadams@thelonious.new.ox.ac.uk>
 
 	* INSTALL, README: Moved install instructions to INSTALL.
 
 	* Makefile.PL: duh
 
-1999-10-24  Adam Spiers  <localadams@pulse.home>
+1999-10-24  localadams  <localadams@thelonious.new.ox.ac.uk>
 
 	* Freshmeat.pm: Added brief description in comments at start
 
@@ -27,7 +47,7 @@
 
 	* README: Almost there.
 
-1999-10-23  Adam Spiers  <localadams@pulse.home>
+1999-10-23  localadams  <localadams@thelonious.new.ox.ac.uk>
 
 	* README: New file.
 
@@ -51,17 +71,17 @@
 	- Fixed typo in comments
 	- Improved =pod
 
-	* t/sample.newsletter: Sample newsletter for testing
+	* t/sample.newsletter.1: Sample newsletter for testing
 
 	* Makefile.PL, eg/README.fmscore: First revision
 
-1999-08-08  adam  <adam@pulse.home>
+1999-08-08  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
 
 	* Freshmeat.pm: entry_keys is an accessor I suppose
 
 	* Freshmeat.pm: Missed a pod bullet
 
-1999-08-07  adam  <adam@pulse.home>
+1999-08-07  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
 
 	* Freshmeat.pm: There isn't always a blank line before the |> url
 
