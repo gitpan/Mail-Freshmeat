@@ -1,3 +1,18 @@
+1.20 Mon Jul 22 04:53:58 2002
+     - Several cosmetic touchups
+     - Some code refactoring
+     - There have been some further very minor interface adjustments to
+       accomodate for some newsletter irregularities. total is now
+       details_total, entry's posted_by has been split into posted_by_name
+       and posted_by_url. Fields that are now specified in the newsletter
+       now return '' instead of 'Not specified'
+     - Better newsletter parsing, and improved error checking
+     - More tests :-)
+     - Reduced the size of the distribution tarball in half
+     - Added support for newsletter "articles", see POD
+     - Updated the POD with more documentation
+     - Fixed a suble bug with parse_entry_version
+
 1.16 Sat Jul 20 20:31:38 2002
      - Now under new management
-     - Significant re-write, see POD for details
+     - Significant re-write, interface has changed, see POD for details

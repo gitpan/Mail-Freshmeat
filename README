@@ -1,4 +1,4 @@
-Mail::Freshmeat version 1.16
+Mail::Freshmeat version 1.20
 ============================
 
 Mail::Freshmeat is a parser for the daily newsletters from
@@ -12,12 +12,12 @@ POD is readable with the 'perldoc' utility.
 SUPPORT
 
 Questions, bug reports, useful code bits, and suggestions for
-Mail::Freshmeat should be sent to me at <afoxson@pobox.com>.
+Mail::Freshmeat can be sent to me at <afoxson@pobox.com>.
 
 AVAILABILITY
 
 The latest version of Mail::Freshmeat is available from the
-Comprehensive Perl Archive Network (CPAN).  Visit
+Comprehensive Perl Archive Network (CPAN). Visit
 <http://www.perl.com/CPAN> to find a CPAN site near you.
 
 COPYRIGHT

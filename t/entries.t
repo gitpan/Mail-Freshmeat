@@ -4,7 +4,7 @@ use strict;
 use Test;
 use Mail::Freshmeat;
 
-BEGIN { plan tests => 24 }
+BEGIN { plan tests => 27 }
 
 open LETTER, "t/sample.entries" or die $!;
 my $newsletter = Mail::Freshmeat->new(\*LETTER);
@@ -120,7 +120,7 @@ EOF
 chomp $headlines;
 ok($newsletter->headlines(), $headlines);
 # '
-ok($newsletter->details_header(), '::: R E L E A S E   D E T A I L S :::');
+ok($newsletter->entries_header(), '::: R E L E A S E   D E T A I L S :::');
 my $footer = <<'EOF';
 The freshmeat daily newsletter
 To unsubscribe, send email to freshmeat-news-request@lists.freshmeat.net
@@ -130,7 +130,7 @@ EOF
 chomp $footer;
 chomp $footer;
 ok($newsletter->footer(), $footer);
-ok($newsletter->total(), 85);
+ok($newsletter->entries_total(), 85);
 ok($newsletter->date(), '2002/02/01');
 ok(ref $newsletter->entries(), 'ARRAY');
 
@@ -142,9 +142,13 @@ for my $entry ($newsletter->entries())
 }
 
 ok($count, 86);
+ok($ent->short_entry(), 'arch 1.0pre3 (Release)');
+my $entry_keys = join '', $ent->entry_keys();
+ok($entry_keys, '_position_name_and_version_name_version_posted_by_name_posted_by_url_posted_on_trove_about_changes_license_url');
 ok($ent->position(), '001');
 ok($ent->name_and_version(), 'arch 1.0pre3 (Release)');
-ok($ent->posted_by(), 'T Lord (http://freshmeat.net/users/tlord/)');
+ok($ent->posted_by_name(), 'T Lord');
+ok($ent->posted_by_url(), 'http://freshmeat.net/users/tlord/');
 ok($ent->posted_on(), 'Friday, February 1st 2002 02:00');
 ok($ent->trove(), 'Software Development :: Version Control');
 my $about = <<EOF;

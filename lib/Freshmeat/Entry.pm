@@ -1,5 +1,5 @@
-# $Revision: 1.14 $
-# $Id: Entry.pm,v 1.14 2002/07/21 03:27:16 afoxson Exp $
+# $Revision: 1.16 $
+# $Id: Entry.pm,v 1.16 2002/07/22 08:35:43 afoxson Exp $
 
 # Mail::Freshmeat::Entry - parses entries from freshmeat daily newsletters
 # Copyright (c) 2002 Adam J. Foxson. All rights reserved.
@@ -24,7 +24,7 @@ use Mail::Freshmeat::Utils;
 
 local $^W;
 
-($VERSION) = '$Revision: 1.14 $' =~ /\s+(\d+\.\d+)\s+/;
+($VERSION) = '$Revision: 1.16 $' =~ /\s+(\d+\.\d+)\s+/;
 
 sub new
 {
@@ -38,13 +38,13 @@ sub new
 	[
 		qw
 		(
-			position name_and_version name version posted_by posted_on
-			trove about changes license url
+			_position _name_and_version _name _version _posted_by_name
+			_posted_by_url _posted_on _trove _about _changes _license _url
 		)
 	];
 
 	# these are the allowed entry accessors
-	$self->{_is_attr} = {map {$_ => 1} @{$self->{_attrs}}, 'full'};
+	$self->{_is_attr} = {map {$_ => 1} @{$self->{_attrs}}, '_full'};
 	$self->_parse($entry, $count);
 
 	return $self;
@@ -66,117 +66,119 @@ sub _parse
 	if ($entry =~
 	/
 		^ \s* \[(\d+)\] \s-\s (.*) $ \n
-		^ (\s* .* \)) \s* by\s(.*) $ \n
-		^ \s* (.*) $ \n
+		^ (\s* .* \)) \s* by\s(.*) \s \((.*)\) $ \n
+		^ \s* ( \w+ , \s \w+ \s \d{1,2} \w{2} \s \d{4} \s \d{2}:\d{2} ) $ \n
 
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: (?:Category:\s|Categories:\s)? (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		(?s: About:\s (.+?) \n )
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: Changes:\s (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		^ \s* License:\s (.*) $ \n
-		$blank_line
+		$_blank_line
 		^ \s* URL:\s (.*) $
 	/mx)
 	{
-		$self->{position}         = $1;
-		$self->{name_and_version} = $2 . $3;
-		$self->{posted_by}        = $4;
-		$self->{posted_on}        = $5;
-		$self->{trove}            = $6;
-		$self->{about}            = $7;
-		$self->{changes}          = $8;
-		$self->{license}          = $9;
-		$self->{url}              = $10;
-		$self->{full}             = $entry;
+		$self->{_position}         = $1;
+		$self->{_name_and_version} = $2 . $3;
+		$self->{_posted_by_name}   = $4;
+		$self->{_posted_by_url}    = $5;
+		$self->{_posted_on}        = $6;
+		$self->{_trove}            = $7;
+		$self->{_about}            = $8;
+		$self->{_changes}          = $9;
+		$self->{_license}          = $10;
+		$self->{_url}              = $11;
+		$self->{_full}             = $entry;
 	}
 	elsif ($entry =~
 	/
 		^ \s* \[(\d+)\] \s-\s (.*) $ \n
-		^ \s* by\s(.*) $ \n
-		^ \s* (.*) $ \n
+		^ \s* by\s(.*) \s \((.*)\) $ \n
+		^ \s* ( \w+ , \s \w+ \s \d{1,2} \w{2} \s \d{4} \s \d{2}:\d{2} ) $ \n
 
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: (?:Category:\s|Categories:\s)? (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		(?s: About:\s (.+?) \n )
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: Changes:\s (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		^ \s* License:\s (.*) $ \n
-		$blank_line
+		$_blank_line
 		^ \s* URL:\s (.*) $
 	/mx)
 	{
-		$self->{position}         = $1;
-		$self->{name_and_version} = $2;
-		$self->{posted_by}        = $3;
-		$self->{posted_on}        = $4;
-		$self->{trove}            = $5;
-		$self->{about}            = $6;
-		$self->{changes}          = $7;
-		$self->{license}          = $8;
-		$self->{url}              = $9;
-		$self->{full}             = $entry;
+		$self->{_position}         = $1;
+		$self->{_name_and_version} = $2;
+		$self->{_posted_by_name}   = $3;
+		$self->{_posted_by_url}    = $4;
+		$self->{_posted_on}        = $5;
+		$self->{_trove}            = $6;
+		$self->{_about}            = $7;
+		$self->{_changes}          = $8;
+		$self->{_license}          = $9;
+		$self->{_url}              = $10;
+		$self->{_full}             = $entry;
 	}
 	elsif ($entry =~
 	/
 		^ \s* \[(\d+)\] \s-\s (.*) $ \n
 		^ \s* by\s(.*) $ \n
 		^ (\s* .*) $ \n
-		^ \s* (.*) $ \n
+		^ \s* ( \w+ , \s \w+ \s \d{1,2} \w{2} \s \d{4} \s \d{2}:\d{2} ) $ \n
 
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: (?:Category:\s|Categories:\s)? (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		(?s: About:\s (.+?) \n )
 		(?: 
-			$blank_line
+			$_blank_line
 			(?s: Changes:\s (.+?) \n )
 		)?
-		$blank_line
+		$_blank_line
 		^ \s* License:\s (.*) $ \n
-		$blank_line
+		$_blank_line
 		^ \s* URL:\s (.*) $
 	/mx)
 	{
-		$self->{position}         = $1;
-		$self->{name_and_version} = $2;
-		$self->{posted_by}        = $3 . $4;
-		$self->{posted_on}        = $5;
-		$self->{trove}            = $6;
-		$self->{about}            = $7;
-		$self->{changes}          = $8;
-		$self->{license}          = $9;
-		$self->{url}              = $10;
-		$self->{full}             = $entry;
+		$self->{_position}         = $1;
+		$self->{_name_and_version} = $2;
+		$self->{_posted_by_name}   = $3 . $4;
+		$self->{_posted_on}        = $5;
+		$self->{_trove}            = $6;
+		$self->{_about}            = $7;
+		$self->{_changes}          = $8;
+		$self->{_license}          = $9;
+		$self->{_url}              = $10;
+		$self->{_full}             = $entry;
+
+		($self->{_posted_by_name}, $self->{_posted_by_url}) =
+			$self->{_posted_by_name} =~ /(.*) \s \((.*)\)/;
 	}
 	else
 	{
 		_fatal_bug("Couldn't parse entry $count (entries).");
 	}
 
-	@$self{qw/name version/} =
+	@$self{qw/_name _version/} =
 		$self->_parse_entry_version($self);
 
 	for my $key (keys %$self)
-	{   
-		if (not defined $self->{$key} or not $self->{$key})
-		{
-			$self->{$key} = 'Not specified';
-		}
+	{
+		$self->{$key} = '' if not defined $self->{$key};
 	}
 
 	if ($self->position() != $count)
@@ -193,7 +195,7 @@ sub _parse
 # like to get it to 100%
 sub _parse_entry_version
 {
-	my ($self, $entry) = @_;
+	my $self = shift;
 
 	# Start of first word of version must match this
 	my $version_first_word_start = qr
@@ -242,13 +244,13 @@ sub _parse_entry_version
 		)*
 	/ix;
 
-	my ($name, $version) = ($entry->{name_and_version}, '');
+	my ($name, $version) = ($self->{_name_and_version}, '');
 
-	if ($entry->{name_and_version} =~
+	if ($self->{_name_and_version} =~
 	/^  
-		(.+?)                       # save name in $1
+		(.+?)
 		\s+
-		(                           # save version in $2
+		(
 			$version_first_word_start
 			$version_rest_of_word
 			(?: 
@@ -256,7 +258,7 @@ sub _parse_entry_version
 				$version_other_words_start
 				$version_rest_of_word
 			)*
-		)                           # end saving $2
+		)
 	$/ix)
 	{   
 		$name    = $1;
@@ -269,7 +271,6 @@ sub _parse_entry_version
 sub short_entry
 {
 	my $self = shift;
-
 	return $self->position(), " - ", $self->name_and_version();
 }   
 
@@ -279,9 +280,9 @@ sub AUTOLOAD
 	my ($package, $method) = ($AUTOLOAD =~ /(.*)::(.*)/);
 
 	return if $method =~ /^DESTROY$/;
-	unless ($self->{_is_attr}->{$method})
+	unless ($self->{_is_attr}->{"_$method"})
 	{
-		croak "No such accessor entry: $method; aborting";
+		croak "No such entry accessor entry: $method; aborting";
 	}
 
 	my $code = q
@@ -289,7 +290,7 @@ sub AUTOLOAD
 		sub
 		{   
 			my $self = shift;
-			return $self->{METHOD};
+			return $self->{_METHOD};
 		}
 	};
 

@@ -1,5 +1,5 @@
-# $Revision: 1.2 $
-# $Id: Utils.pm,v 1.2 2002/07/21 00:15:16 afoxson Exp $
+# $Revision: 1.3 $
+# $Id: Utils.pm,v 1.3 2002/07/22 06:14:37 afoxson Exp $
 
 # Mail::Freshmeat::Utils - support class that exports utilities
 # Copyright (c) 2002 Adam J. Foxson. All rights reserved.
@@ -20,15 +20,15 @@ use strict;
 use 5.005;
 use Carp;
 use Exporter;
-use vars qw(@ISA $VERSION @EXPORT $blank_line $sep);
+use vars qw(@ISA $VERSION @EXPORT $_blank_line $_sep);
 
 local $^W;
 
-($VERSION)   = '$Revision: 1.2 $' =~ /\s+(\d+\.\d+)\s+/;
+($VERSION)   = '$Revision: 1.3 $' =~ /\s+(\d+\.\d+)\s+/;
 @ISA         = qw(Exporter);
-@EXPORT      = qw(&_fatal_bug $blank_line $sep);
-$blank_line  = qr/ ^ \s * $ \n /x;
-$sep         = qr/ ^ [-\.\s]+ $ \n /x;
+@EXPORT      = qw(&_fatal_bug $_blank_line $_sep);
+$_blank_line = qr/ ^ \s * $ \n /x;
+$_sep        = qr/ ^ [-\.\s]+ $ \n /x;
 
 sub _fatal_bug
 {

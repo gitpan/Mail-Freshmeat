@@ -6,6 +6,7 @@ MANIFEST			This list of files
 Makefile.PL
 README
 lib/Freshmeat.pm
+lib/Freshmeat/Article.pm
 lib/Freshmeat/Entry.pm
 lib/Freshmeat/Utils.pm
 t/entries.t
