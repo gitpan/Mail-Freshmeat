@@ -1,10 +1,15 @@
-2000-03-12  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
+2000-11-02  Adam Spiers  <adam@spiers.net>
+
+	* t/sample.newsletter.1, t/sample.newsletter.2, Freshmeat.pm:
+	update for new `name'/`posted on' format
+
+2000-03-12  Adam Spiers  <adam@spiers.net>
 
 	* Freshmeat.pm: version 0.93
 
 	* Freshmeat.pm: move require 5.005 to BEGIN block to be more useful
 
-1999-12-08  localadams  <localadams@thelonious.new.ox.ac.uk>
+1999-12-08  Adam Spiers  <adam@spiers.net>
 
 	* t/all.t: Added tests for new advertisement code.
 
@@ -18,7 +23,7 @@
 	* t/sample.newsletter.2, MANIFEST:
 	Added second sample newsletter for testing adverts code.
 
-1999-11-09  localadams  <localadams@thelonious.new.ox.ac.uk>
+1999-11-09  Adam Spiers  <adam@spiers.net>
 
 	* Freshmeat.pm: Bumped version to 0.91.
 
@@ -26,13 +31,13 @@
 
 	* README: Fixed CPAN url
 
-1999-11-02  localadams  <localadams@thelonious.new.ox.ac.uk>
+1999-11-02  Adam Spiers  <adam@spiers.net>
 
 	* INSTALL, README: Moved install instructions to INSTALL.
 
 	* Makefile.PL: duh
 
-1999-10-24  localadams  <localadams@thelonious.new.ox.ac.uk>
+1999-10-24  Adam Spiers  <adam@spiers.net>
 
 	* Freshmeat.pm: Added brief description in comments at start
 
@@ -47,7 +52,7 @@
 
 	* README: Almost there.
 
-1999-10-23  localadams  <localadams@thelonious.new.ox.ac.uk>
+1999-10-23  Adam Spiers  <adam@spiers.net>
 
 	* README: New file.
 
@@ -75,13 +80,13 @@
 
 	* Makefile.PL, eg/README.fmscore: First revision
 
-1999-08-08  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
+1999-08-08  Adam Spiers  <adam@spiers.net>
 
 	* Freshmeat.pm: entry_keys is an accessor I suppose
 
 	* Freshmeat.pm: Missed a pod bullet
 
-1999-08-07  Adam Spiers  <adam@thelonious.new.ox.ac.uk>
+1999-08-07  Adam Spiers  <adam@spiers.net>
 
 	* Freshmeat.pm: There isn't always a blank line before the |> url
 

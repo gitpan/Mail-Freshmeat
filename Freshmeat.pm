@@ -6,7 +6,7 @@
 # reserved. This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 #
-# $Id: Freshmeat.pm,v 1.15 2000/03/12 18:56:58 adam Exp $
+# $Id: Freshmeat.pm,v 1.16 2000/11/02 15:13:12 adam Exp $
 #
 
 package Mail::Freshmeat;
@@ -20,7 +20,7 @@ use Carp;
 
 use vars qw($VERSION @ISA);
 @ISA = qw(Mail::Internet AutoLoader);
-$VERSION = '0.93';
+$VERSION = '0.94';
 
 =head1 NAME
 
@@ -129,15 +129,15 @@ sub parse {
                            $self->{fm_details})
   {
     if ($entry !~ /
-                   ^ \s* subject:   \s (.*) $ \n
-                   ^ \s* added\ by: \s (.*) $ \n
-               (?: ^ \s* license:   \s (.*) $ \n )?
-                   ^ \s* category:  \s (.*) $ \n
-          (?:  
+                   ^ \s* name:       \s (.*) $ \n
+                   ^ \s* posted\ on: \s (.*) $ \n
+               (?: ^ \s* license:    \s (.*) $ \n )?
+                   ^ \s* category:   \s (.*) $ \n
+          (?: 
                    $blank_line
-               (?: ^ \s* homepage:  \s (.*) $ \n )?
-               (?: ^ \s* download:  \s (.*) $ \n )?
-               (?: ^ \s* changelog: \s (.*) $ \n )?
+               (?: ^ \s* homepage:   \s (.*) $ \n )?
+               (?: ^ \s* download:   \s (.*) $ \n )?
+               (?: ^ \s* changelog:  \s (.*) $ \n )?
           )?
                    $blank_line
                    ^ (body|description) : \s* $ \n
@@ -173,8 +173,8 @@ sub parse {
     # REMINDER: If you change the following keys, you must change
     # the entry_keys method and its documentation.
     my $new_entry = {
-                     subject   => $1,
-                     added_by  => $2,
+                     name_and_version => $1,
+                     posted_on => $2,
                      license   => $3,
                      category  => $4,
                      homepage  => $5,
@@ -187,75 +187,7 @@ sub parse {
                      url       => $12,
                     };
 
-    # Start of first word of version must match this
-    my $version_first_word_start
-      = qr/
-                 (
-                    [.\d]           |
-                    pre             |
-                    alpha           |
-                    beta            |
-                    patch           |
-                    r               |
-                    rel             |
-                    release         |
-                    build           |
-                    v(?:er)? [^a-z]
-                 )
-          /ix;
-
-    # Start of further words of version must match this
-    my $version_other_words_start
-      = qr/
-                 (
-                    [.\d(]          |
-                    pre             |
-                    alpha           |
-                    beta            |
-                    r               |
-                    rel             |
-                    release         |
-                    build           |
-                    patch
-                 )
-          /ix;
-
-    # Rest of each word of version must match this
-    my $version_rest_of_word
-      = qr/
-                 (
-                    [.\w()\/-]      |
-                    pre             |
-                    alpha           |
-                    beta            |
-                    patch           |
-                    \d{1,6}(?!\d)       # not more than six digits
-                                        # in a row (how silly am I?)
-                 )*
-          /ix;
-
-    if ($new_entry->{category} ne 'Community' and
-        $new_entry->{subject}
-          =~ /^
-               (.+?)                       # save name in $1
-               \s+
-               (                           # save version in $2
-                 $version_first_word_start
-                 $version_rest_of_word
-                 (?:
-                    \s+
-                    $version_other_words_start
-                    $version_rest_of_word
-                 )*
-               )                           # end saving $2
-              $/ix)
-    {
-      $new_entry->{name}    = $1;
-      $new_entry->{version} = $2;
-    }
-    else {
-      $new_entry->{name} = $new_entry->{subject};
-    }
+    @$new_entry{qw/name version/} = $self->parse_entry_version($new_entry);
 
     $new_entry->{body} =~ s/\r$//mg;
 
@@ -285,6 +217,81 @@ EOF
   return ($self->{fm_parsed} = $clean_parse ? 'ok' : 'unclean');
 }
 
+sub parse_entry_version {
+  my ($self, $entry) = @_;
+  
+  # Start of first word of version must match this
+  my $version_first_word_start
+    = qr/
+               (
+                  [.\d]           |
+                  pre             |
+                  alpha           |
+                  beta            |
+                  patch           |
+                  r               |
+                  rel             |
+                  release         |
+                  build           |
+                  v(?:er)? [^a-z]
+               )
+        /ix;
+
+  # Start of further words of version must match this
+  my $version_other_words_start
+    = qr/
+               (
+                  [.\d(]          |
+                  pre             |
+                  alpha           |
+                  beta            |
+                  r               |
+                  rel             |
+                  release         |
+                  build           |
+                  patch
+               )
+        /ix;
+
+  # Rest of each word of version must match this
+  my $version_rest_of_word
+    = qr/
+               (
+                  [.\w()\/-]      |
+                  pre             |
+                  alpha           |
+                  beta            |
+                  patch           |
+                  \d{1,6}(?!\d)       # not more than six digits
+                                      # in a row (how silly am I?)
+               )*
+        /ix;
+
+  my ($name, $version) = ($entry->{name_and_version}, '');
+  
+  if ($entry->{category} ne 'Community' and
+      $entry->{name_and_version}
+        =~ /^
+             (.+?)                       # save name in $1
+             \s+
+             (                           # save version in $2
+               $version_first_word_start
+               $version_rest_of_word
+               (?:
+                  \s+
+                  $version_other_words_start
+                  $version_rest_of_word
+               )*
+             )                           # end saving $2
+            $/ix)
+  {
+    $name    = $1;
+    $version = $2;
+  }
+
+  return ($name, $version);
+}
+
 =back
 
 =cut
@@ -306,10 +313,10 @@ Returns the keys which each entry may have set, in the order in which
 they are encountered in the newsletter:
 
     - position
-    - subject
+    - name_and_version
     - name
     - version
-    - added_by 
+    - posted_on 
     - license 
     - category 
     - homepage 
@@ -326,10 +333,10 @@ they are encountered in the newsletter:
 sub entry_keys {
   return qw/
             position
-            subject
-            name 
+            name_and_version
+            name
             version
-            added_by 
+            posted_on 
             license 
             category 
             homepage 
@@ -541,7 +548,7 @@ sub short_entry {
 =item * B<entry_header>
 
 This method returns the entry's "header" (from the line starting
-'subject:' to the line starting 'changelog:' (or to the line where
+'name:' to the line starting 'changelog:' (or to the line where
 'changelog:' would have been if it was there)) in exactly the same
 format (modulo whitespace) as when it was one of the entries in the
 '[ article details ]' section of the original newsletter.
@@ -557,8 +564,8 @@ sub entry_header {
   my %entry = map { $_ => ($entry->{$_} || '') } ($self->entry_keys);
 
   my $header = <<EOF;
-  subject: $entry{subject}
- added by: $entry{added_by}
+     name: $entry{name_and_version}
+posted on: $entry{posted_on}
   license: $entry{license}
  category: $entry{category}
 
