@@ -1,0 +1,9 @@
+For an example of the use of this module, see fmscore at
+
+  http://www.new.ox.ac.uk/~adam/computing/fmscore/
+
+fmscore is a program which scores articles in freshmeat newsletter in
+a user-defined manner, and then sorts the entries accordingly.  The
+user specifies scoring through pseudo-Perl-code, which can be anything
+from simple keywords of interest/disinterest, to arbitrarily complex
+code.

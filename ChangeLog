@@ -1,0 +1,69 @@
+1999-11-09  Adam Spiers  <localadams@pulse.home>
+
+	* Freshmeat.pm: Bumped version to 0.91.
+
+	* MANIFEST: Added INSTALL
+
+	* README: Fixed CPAN url
+
+1999-11-02  Adam Spiers  <localadams@pulse.home>
+
+	* INSTALL, README: Moved install instructions to INSTALL.
+
+	* Makefile.PL: duh
+
+1999-10-24  Adam Spiers  <localadams@pulse.home>
+
+	* Freshmeat.pm: Added brief description in comments at start
+
+	* MANIFEST: Added ChangeLog
+
+	* Freshmeat.pm:
+	Preload parse() - there's not much point using the module at all without it.
+
+	* Freshmeat.pm: removed unnecessary =cut
+
+	* README: 5.005 needed
+
+	* README: Almost there.
+
+1999-10-23  Adam Spiers  <localadams@pulse.home>
+
+	* README: New file.
+
+	* Makefile.PL: Added PREREQ_PM
+
+	* MANIFEST: New file.
+
+	* Freshmeat.pm:
+	'Security' and 'Documentation' categories don't get displayed
+	in short entries either
+
+	* t/all.t: Initial test suite
+
+	* Freshmeat.pm: Fixed =pod bug
+
+	* Freshmeat.pm: Allowed 'build' in version string
+
+	* Freshmeat.pm: - CPANification (AutoLoader, version)
+	- Added $clean_parse
+	- Fixed bug with total()
+	- Fixed typo in comments
+	- Improved =pod
+
+	* t/sample.newsletter: Sample newsletter for testing
+
+	* Makefile.PL, eg/README.fmscore: First revision
+
+1999-08-08  adam  <adam@pulse.home>
+
+	* Freshmeat.pm: entry_keys is an accessor I suppose
+
+	* Freshmeat.pm: Missed a pod bullet
+
+1999-08-07  adam  <adam@pulse.home>
+
+	* Freshmeat.pm: There isn't always a blank line before the |> url
+
+	* Freshmeat.pm: Initial import
+

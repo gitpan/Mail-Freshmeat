@@ -1,0 +1,9 @@
+README
+INSTALL
+MANIFEST
+Makefile.PL
+Freshmeat.pm
+t/all.t
+t/sample.newsletter
+eg/README.fmscore
+ChangeLog

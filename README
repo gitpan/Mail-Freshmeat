@@ -1,0 +1,56 @@
+README for Mail::Freshmeat
+
+                           Mail::Freshmeat
+                           ===============
+
+Mail::Freshmeat is a parser for the daily newsletters from
+<http://freshmeat.net/>.
+
+
+Uses
+----
+
+See <http://www.new.ox.ac.uk/~adam/computing/fmscore/> for what may be
+the only sensible application of this module.  (Quick summary: fmscore
+is a Perl5 program which uses Mail::Freshmeat to parse freshmeat daily
+e-mail newsletters, and then rank them by interest according to highly
+flexible user-supplied ranking rules. Articles below a specified score
+will be removed from the output. fmscore is ideal for use as a
+procmail filter.)
+
+Prerequisites
+-------------
+
+This suite requires Perl 5.005 or higher.  Mail::Freshmeat also needs
+Mail::Internet, newer versions of which require Mail::Header.
+
+Installation
+------------
+
+See INSTALL.
+
+Documentation
+-------------
+
+POD-format documentation is included in Freshmeat.pm.  POD is readable
+with the 'perldoc' utility.
+
+Support
+-------
+
+Questions, bug reports, useful code bits, and suggestions for
+Mail::Freshmeat should just be sent to me at <adam@spiers.net>.
+
+Availability
+------------
+
+The latest version of Mail::Freshmeat is available from the
+Comprehensive Perl Archive Network (CPAN).  Visit
+<http://www.perl.com/CPAN> to find a CPAN site near you.
+
+Copyright
+---------
+
+(c) 1999, Adam Spiers <adam@spiers.net>, all rights reserved.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
