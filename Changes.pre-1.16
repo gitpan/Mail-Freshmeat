@@ -1,15 +1,15 @@
-2000-11-02  Adam Spiers  <adam@spiers.net>
+2000-11-02  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* t/sample.newsletter.1, t/sample.newsletter.2, Freshmeat.pm:
 	update for new `name'/`posted on' format
 
-2000-03-12  Adam Spiers  <adam@spiers.net>
+2000-03-12  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* Freshmeat.pm: version 0.93
 
 	* Freshmeat.pm: move require 5.005 to BEGIN block to be more useful
 
-1999-12-08  Adam Spiers  <adam@spiers.net>
+1999-12-08  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* t/all.t: Added tests for new advertisement code.
 
@@ -23,7 +23,7 @@
 	* t/sample.newsletter.2, MANIFEST:
 	Added second sample newsletter for testing adverts code.
 
-1999-11-09  Adam Spiers  <adam@spiers.net>
+1999-11-09  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* Freshmeat.pm: Bumped version to 0.91.
 
@@ -31,13 +31,13 @@
 
 	* README: Fixed CPAN url
 
-1999-11-02  Adam Spiers  <adam@spiers.net>
+1999-11-02  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* INSTALL, README: Moved install instructions to INSTALL.
 
 	* Makefile.PL: duh
 
-1999-10-24  Adam Spiers  <adam@spiers.net>
+1999-10-24  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* Freshmeat.pm: Added brief description in comments at start
 
@@ -52,7 +52,7 @@
 
 	* README: Almost there.
 
-1999-10-23  Adam Spiers  <adam@spiers.net>
+1999-10-23  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* README: New file.
 
@@ -80,15 +80,14 @@
 
 	* Makefile.PL, eg/README.fmscore: First revision
 
-1999-08-08  Adam Spiers  <adam@spiers.net>
+1999-08-08  Adam Spiers  &lt;adam@spiers.net&gt;
 
 	* Freshmeat.pm: entry_keys is an accessor I suppose
 
 	* Freshmeat.pm: Missed a pod bullet
 
-1999-08-07  Adam Spiers  <adam@spiers.net>
+1999-08-07  Adam Spiers  &lt;adam@spiers.net&gt;
 
-	* Freshmeat.pm: There isn't always a blank line before the |> url
+	* Freshmeat.pm: There isn't always a blank line before the |&gt; url
 
 	* Freshmeat.pm: Initial import
-

@@ -1,0 +1,2040 @@
+From freshmeat-news-admin@lists.freshmeat.net Sat Feb 02 09:05:36 2002
+Return-Path: <freshmeat-news-admin@lists.freshmeat.net>
+Delivered-To: afoxson@magnonel.guild.net
+Received: (qmail 24576 invoked by uid 1068); 2 Feb 2002 09:05:35 -0000
+Received: from guild.net (root@209.166.166.144)
+  by magnonel.guild.net with SMTP; 2 Feb 2002 09:05:35 -0000
+Received: from mail.freshmeat.net ([64.28.67.35])
+	by guild.net (8.9.1/8.9.1) with ESMTP id EAA28253
+	for <afoxson@guild.net>; Sat, 2 Feb 2002 04:09:24 -0500
+From: freshmeat-news-admin@lists.freshmeat.net
+Received: from mail.freshmeat.net (localhost [127.0.0.1])
+	by mail.freshmeat.net (Postfix) with ESMTP
+	id B75CD83170; Fri,  1 Feb 2002 23:45:23 -0500 (EST)
+Delivered-To: freshmeat-news@freshmeat.net
+Received: from server.freshmeat.net (freshmeat.net [64.28.67.35])
+	by mail.freshmeat.net (Postfix) with ESMTP id 2358E830A1
+	for <freshmeat-news@freshmeat.net>; Fri,  1 Feb 2002 23:44:20 -0500 (EST)
+Received: by server.freshmeat.net (Postfix, from userid 1000)
+	id CAFBF3F839; Fri,  1 Feb 2002 23:58:01 -0500 (EST)
+To: freshmeat-news@freshmeat.net
+Content-transfer-encoding: 8bit
+Message-Id: <20020202045801.CAFBF3F839@server.freshmeat.net>
+Subject: [fm-news] Newsletter for Friday, February 01st 2002
+Sender: freshmeat-news-admin@lists.freshmeat.net
+Errors-To: freshmeat-news-admin@lists.freshmeat.net
+X-BeenThere: freshmeat-news@lists.freshmeat.net
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+Reply-To: noreply@freshmeat.net
+X-Reply-To: freshmeat-news@lists.freshmeat.net
+List-Help: <mailto:freshmeat-news-request@lists.freshmeat.net?subject=help>
+List-Post: <mailto:freshmeat-news@lists.freshmeat.net>
+List-Subscribe: <http://lists.freshmeat.net/mailman/listinfo/freshmeat-news>,
+	<mailto:freshmeat-news-request@lists.freshmeat.net?subject=subscribe>
+List-Id: The freshmeat daily newsletter <freshmeat-news.lists.freshmeat.net>
+List-Unsubscribe: <http://lists.freshmeat.net/mailman/listinfo/freshmeat-news>,
+	<mailto:freshmeat-news-request@lists.freshmeat.net?subject=unsubscribe>
+List-Archive: <http://lists.freshmeat.net/mailman/private/freshmeat-news/>
+Date: Fri,  1 Feb 2002 23:58:01 -0500 (EST)
+Status: RO
+Content-Length: 74199
+Lines: 1996
+
+::: L I N K S   F O R   T H E   D A Y :::
+
+Today's news on the web: http://freshmeat.net/daily/2002/02/01/
+freshmeat.net newsgroup: news://news.freshmeat.net/fm.announce
+
+-.-..- ------..---..--..--.--- --.---..-..--.  --- - --  --.  ---
+
+::: A D V E R T I S I N G :::
+
+Sponsored by Thawte
+
+FREE SSL Guide from Thawte   Are you planning your Web Server Security?
+Click  here to get a FREE Thawte SSL guide and find the answers to all your
+ SSL security issues.      
+
+http://www.thawte.com/ucgi/gothawte.cgi?a=n173875740071000
+
+---- -----.-- .--..- .------.--.---.  --.-.- ..-. - ----  .-.--- 
+
+::: R E L E A S E   H E A D L I N E S (85) :::
+
+[001] - arch 1.0pre3 (Release)
+[002] - AuthToken 1.01
+[003] - Auto Control Pro 2.1
+[004] - b. 1.3.0
+[005] - BeatForce 0.0.8-ALPHA
+[006] - Blitzed Open Proxy Monitor 1.1r2 (Stable)
+[007] - BSD ex/vi 01/26/02
+[008] - bzip2 1.0.2
+[009] - centericq 4.5.1
+[010] - CrisoftRicette 0.1
+[011] - Current 0.9.4 "Brown Paper Bag" (Stable)
+[012] - dataMiner 0.9.0
+[013] - DNSMan 0.66
+[014] - E-CELL Simulation Environment 3.0.0-alpha2 (Development)
+[015] - EC 1.9
+[016] - EJBCA 1.2 (Development)
+[017] - eXtensible Data Format 017-stable1 (Stable)
+[018] - FreeTTS 1.1
+[019] - FreeVMS 0.0.7 (Unstable kernel)
+[020] - ftp-utils 1.0pre3 (Release)
+[021] - FUDform 1.1.1
+[022] - Ganglia Cluster Toolkit 2.0.3 (Monitoring core)
+[023] - gettext 0.11
+[024] - GKrellKam 0.3.3
+[025] - GNU shtool 1.6.0
+[026] - GraphThing 20020202 (Development)
+[027] - GtkDiskFree 1.6.6 (Stable)
+[028] - harvest 1.7.16
+[029] - Hashish Beta 1 (Stable)
+[030] - HDK Time Tracker 1.2
+[031] - ht://Dig 3.1.6 (Stable)
+[032] - HTML::Template 2.5
+[033] - HTTrack Website Copier 3.15
+[034] - ICMP Shell 0.2 (Stable)
+[035] - IPFC 1.0.3 (Release)
+[036] - IPTables Perl eXpander 2.0
+[037] - Java SOS 2.71
+[038] - JBossMX 1.0 Alpha 1 (Development)
+[039] - Jitac 0.2.0
+[040] - jpegextractor 1.0
+[041] - kio-mac 0.8
+[042] - kludge3d 2002-2-1
+[043] - LibCGI 0.7.1 (Stable)
+[044] - LocalSQL 0.0.4
+[045] - Lyric Display System 0.16
+[046] - Magma 1.0pre1 (Pre Release)
+[047] - MakeNG: The Superior Build System 1.8 (Stable)
+[048] - mod_ssl 2.8.6-1.3.23
+[049] - monit 2.2.1
+[050] - Monkey HTTP Daemon 0.2.6 (Development)
+[051] - motor 3.2.0
+[052] - my own diary 1.4 (Stable)
+[053] - Netjuke 1.0b8 (Application)
+[054] - nInvaders 0.0.3
+[055] - OdeiaVir 0.4.3 (Development)
+[056] - ol'bookmarks manager 0.5.3 (Stable)
+[057] - OpenAFS 1.2.3
+[058] - Organon 0.5.1 (Stable)
+[059] - Pan 0.11.1.94
+[060] - PLplot 5.1.0 (Stable)
+[061] - Project Labrador 0.5
+[062] - ProMA 0.6
+[063] - PT 0.1.0
+[064] - pygame 1.4
+[065] - ReqTools 0.1.1
+[066] - Secure FTP Wrapper 2.0 PR 2
+[067] - Securepoint Firewall and VPN Server 2.0.6
+[068] - Siege 2.50 (Stable)
+[069] - SILC 0.7.5 (Client)
+[070] - Single System Image Clusters for Linux 0.6.0 (Development)
+[071] - Sitenews 0.10 (Beta)
+[072] - TAcHash 0.2
+[073] - taglog 0.1.30
+[074] - Tcl/Tk Project Manager 0.1.3
+[075] - Tilde 0.4.0 (Stable)
+[076] - Tilde pre0.5.0 (Development)
+[077] - TM4J 0.6.0 beta 1 (Development)
+[078] - UDS Collection 1.0.2
+[079] - Vstr string library 0.7.2
+[080] - web2ldap 0.10.0
+[081] - WebGUI 3.1.0
+[082] - WebUMake Instant Helper 1.0
+[083] - Wlan FE 1.0.0 (Stable)
+[084] - Xpdf 1.00
+[085] - Zaval Database Front-end 1.1.0 (Stable)
+
+
+--   .--  -.------------ ..- ----.---  --  ---- --.--. -  -- -.--
+
+::: R E L E A S E   D E T A I L S :::
+
+[001] - arch 1.0pre3 (Release)
+  by T Lord (http://freshmeat.net/users/tlord/)
+  Friday, February 1st 2002 02:00
+
+Software Development :: Version Control
+
+About: arch is a revision control system with features that are ideal for
+free software and open source projects characterized by widely distributed
+development, concurrent support of multiple releases, and substantial
+amounts of development on branches. It is intended to replace CVS and
+corrects many mis-features of that system.  
+
+Changes: In this release, past revisions can now be made available in a
+(space efficient) forest of (ordinary) file system trees. There is a new
+web browser for exploring the repositories.  A number of portability
+glitches and minor bugs have been fixed, including a serious security bug
+in with-ftp.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/archrc/
+
+                        - %  - %  - % - % -
+
+[002] - AuthToken 1.01
+  by Samuel Chen (http://freshmeat.net/users/billhen/)
+  Friday, February 1st 2002 15:29
+
+Software Development Software Development :: Libraries
+
+About: AuthToken is a Java utility library for generating and validating
+authentication tokens (i.e., an encrypt string). Since the token is a text
+string, it can be passed around between different JVMs (servers). It can be
+used to avoid multiple logins for the same user to various servers.  
+
+Changes: Demo source code was added, and usage instructions were improved.
+
+License: Shareware
+
+URL: http://freshmeat.net/projects/authtoken/
+
+                        - %  - %  - % - % -
+
+[003] - Auto Control Pro 2.1
+  by rick (http://freshmeat.net/users/rkurth/)
+  Friday, February 1st 2002 16:11
+
+Internet :: WWW/HTTP :: Site Management System :: Systems Administration
+
+About: Auto Control Pro is a set of PHP and MySQL scripts for setting up
+your hosting customer sites on a RAQ automatically from user input. It
+automates the complete setup of virtual sites with  different hosting plans
+on Sun RaQ servers,  provides customers with their own Control Panel  with
+extra features like password protection which are not available on the
+regular site administrator interface, provides facilities to send out
+welcome emails and billing reminders to customers automatically,
+facilitates customer and site management with powerful tools, including the
+options to suspend or delete users with the push of a button, a powerful
+trouble ticket system, and options for backing up MySQL databases and key
+server information.
+
+License: Other/Proprietary License with Free Trial
+
+URL: http://freshmeat.net/projects/autocontrolpro/
+
+                        - %  - %  - % - % -
+
+[004] - b. 1.3.0
+  by Victor See-le (http://freshmeat.net/users/ngon/)
+  Friday, February 1st 2002 15:26
+
+Internet :: WWW/HTTP Internet :: WWW/HTTP :: Dynamic Content Internet ::
+WWW/HTTP :: Dynamic Content :: Message Boards
+
+About: b. is a Web-based manager for bookmarks (which are stored in an XML
+file). Operations on the data are done with Perl scripts, and it supports
+multiple users and user-customizable themes. It only requires Perl and a
+Web server. 
+
+Changes: This release adds a search utility, the ability to shift bookmarks
+up / down, new viewing options, and simple export utilities.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/b./
+
+                        - %  - %  - % - % -
+
+[005] - BeatForce 0.0.8-ALPHA
+  by pprasse (http://freshmeat.net/users/pprasse/)
+  Friday, February 1st 2002 06:18
+
+Multimedia :: Sound/Audio Multimedia :: Sound/Audio :: Mixers Multimedia ::
+Sound/Audio :: Players
+
+About: BeatForce is a computer DJing system, with two  players with
+independent playlist, song database,  mixer, sampler etc. It was planned as
+a feature  enhanced Linux replacement for BPM-Studio from  Alcatech.
+
+Changes: This release fixes bugs causing segfaults and SEGVs. The song
+database is loaded from an XML file at the start and saved on exit,
+searching is now implemented and working, and the importing of directory
+structures is now supported. Folders can now be created, removed, and
+renamed. There is now OSS and ID3v2 support, windows remember their
+positions, and there is support for the addition of single songs.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/beatforce/
+
+                        - %  - %  - % - % -
+
+[006] - Blitzed Open Proxy Monitor 1.1r2 (Stable)
+  by Erik Fears (http://freshmeat.net/users/strtok/)
+  Friday, February 1st 2002 02:14
+
+Communications :: Chat :: Internet Relay Chat
+
+About: Designed for the Bahamut and Hybrid IRCds, bopm is a replacement for
+the abandoned wgmon project. It extends wgmon by adding support for SOCKS4,
+SOCKS5, Wingate, and HTTP proxies, simultaneous connections, and a more
+scalable model (written in C). BOPM also has support for a DNS blacklist,
+similar to MAPS RBL+ or Visi RSL.
+
+Changes: This release fixes a few bugs dealing with config file loading
+that caused segmentation faults for some users.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/bopm/
+
+                        - %  - %  - % - % -
+
+[007] - BSD ex/vi 01/26/02
+  by Gunnar Ritter (http://freshmeat.net/users/gritter/)
+  Friday, February 1st 2002 14:04
+
+Text Editors
+
+About: BSD ex/vi is the original vi as found in 4BSD, enhanced to support
+modern operating systems, international character sets, and features
+demanded by POSIX.2. It contains few additions beyond this, so it is of
+interest for those who look for a small but well-defined vi implementation
+close to that of most commercial Unix systems. It also has some features to
+cope with primitive terminals or slow connections. 
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/vi/
+
+                        - %  - %  - % - % -
+
+[008] - bzip2 1.0.2
+  by Erik Månsson (http://freshmeat.net/users/goodbytes/)
+  Friday, February 1st 2002 03:04
+
+System :: Archiving :: Compression
+
+About: bzip2 is a portable, lossless data compressor based on the
+Burrows-Wheeler transform. It achieves good compression and runs on
+practically every (32/64-bit) platform in the known universe. The
+compression engine is also available as a library, should you desire a
+programmatic interface.
+
+Changes: This release fixes file handling and documentation bugs.
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/bzip2/
+
+                        - %  - %  - % - % -
+
+[009] - centericq 4.5.1
+  by Konstantin Klyagin (http://freshmeat.net/users/konst/)
+  Friday, February 1st 2002 03:08
+
+Communications Communications :: Chat :: ICQ
+
+About: centericq is a text mode menu- and window-driven IM interface that
+supports the ICQ2000, Yahoo!, and MSN protocols. It allows you to send,
+receive, and forward messages, URLs, SMSes, contacts and email express
+messages. You can also mass message send, search for users (including the
+extended "whitepages search"), view users' details, maintain your contact
+list directly from the program (including non-ICQ contacts), view the
+message history, register a new UIN and update your details, be informed
+upon receipt of email messages, automatically set away after the defined
+period of inactivity (on any console), and have your own ignore, visible,
+and invisible lists. It can also associate events with sounds, make log of
+events, has support for Hebrew and Arabic languages, and allows arrangement
+of contacts into groups. 
+
+Changes: In this release, all the possible ICQ user details information is
+now displayed. ICQ whitepages search, invisible mode and self details
+update features are up and running again. The ability to receive email
+express and "you were added" messages were added. The email sound action
+and auto away features that didn't work were fixed. The FAQ was updated.
+Events logging to a file with timestamps feature was added. A bug causing
+empty authorization request messages to be received all the time was fixed.
+MSN related segfaults were eliminated.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/centericq/
+
+                        - %  - %  - % - % -
+
+[010] - CrisoftRicette 0.1
+  by Lorenzo Pulici (http://freshmeat.net/users/snowdog65/)
+  Friday, February 1st 2002 14:08
+
+Database
+
+About: CrisoftRicette is a simple PHP application to build your personal
+archive of cooking recipes in an SQL database. It currently only supports
+MySQL, and the interface has international support. 
+
+Changes: This release adds a new database structure and some bugfixes. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/crisoftricette/
+
+                        - %  - %  - % - % -
+
+[011] - Current 0.9.4 "Brown Paper Bag" (Stable)
+  by hunter (http://freshmeat.net/users/huntermatthews/)
+  Friday, February 1st 2002 14:10
+
+System :: Systems Administration
+
+About: Current is a server implementation for Red Hat's up2date tools. It's
+designed for small to medium departments to be able to set up and run their
+own up2date server, feeding new applications and security patches to
+workstations/servers.
+
+Changes: This release adds fixes to the auth.py problem in 0.9.3, and some
+minor cleanups in channel.py. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/current/
+
+                        - %  - %  - % - % -
+
+[012] - dataMiner 0.9.0
+  by Jason Hines (http://freshmeat.net/users/openface/)
+  Friday, February 1st 2002 15:23
+
+About: (php)dataMiner is a set of PHP classes used to browse, search, and
+manipulate data stored in a database. It is perfect for a Web site
+administrative backend. It supports skins. It currenly only supports MySQL,
+but can be extended easily with its integrated DBI. It is easily
+configurable to adhere to data "rules" such as cross-referencing other
+database tables, file uploads, and more.
+
+Changes: Many bugs have been fixed. Some new features were added, such as a
+Javascript popup calendar for handling DATE and DATETIME data types, a new
+rule for handling pseudo arrays in one field as a string, and more. More
+in-line examples were added as well as more error checking, a friendlier
+error page, and better documentation.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/dataminer/
+
+                        - %  - %  - % - % -
+
+[013] - DNSMan 0.66
+  by Cobar (http://freshmeat.net/users/cobar/)
+  Friday, February 1st 2002 06:23
+
+Internet :: Name Service (DNS) Internet :: WWW/HTTP System :: Systems
+Administration
+
+About: DNSMan is a set of Perl CGI scripts for managing records on a DNS
+server. It has the ability to create and edit forward and reverse zones, as
+well as mirroring those changes on secondary servers. It aims to maximize
+speed when managing zones while allowing flexibility and power.
+
+Changes: This release adds the ability to delete zones from secondary
+servers, the ability to generate zonefiles on secondary servers that can't
+use zone transfers, and documentation for using AutoDNS to update
+secondaries. It also fixes several bugs with chrooted copies of BIND.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/dnsman/
+
+                        - %  - %  - % - % -
+
+[014] - E-CELL Simulation Environment 3.0.0-alpha2 (Development)
+  by shafi (http://freshmeat.net/users/shafi/)
+  Friday, February 1st 2002 15:22
+
+Scientific/Engineering :: Bioinformatics
+
+About: The E-CELL Simulation Environment (E-CELL SE) is a software package
+for cellular and biochemical modeling and simulation. E-CELL attempts to
+provide a framework not only for analyzing metabolism, but also for
+higher-order cellular phenomena such as gene regulation networks, DNA
+replication, and other occurrences in the cell cycle.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ecell/
+
+                        - %  - %  - % - % -
+
+[015] - EC 1.9
+  by thx1132 (http://freshmeat.net/users/kiesling3/)
+  Friday, February 1st 2002 16:14
+
+Communications :: Email
+
+About: EC is an email program for Unix systems that is written using the
+Perl/Tk GUI libraries. It can receive mail from multiple POP3 servers, and
+send mail directly to a remote SMTP server (or via sendmail or qmail if
+either is installed). It can save messages in user configurable folders,
+and provides message filtering for incoming messages. Also, EC can encode
+and decode Base 64 MIME attachments, and supports Web browsing with Opera,
+Netscape, and Lynx.
+
+Changes: This release has improvements for backwards compatibility with
+Perl 5.005, better handling of the selection and network errors, and
+miscellaneous other minor bugfixes.
+
+License: Artistic License
+
+URL: http://freshmeat.net/projects/ecemailclient/
+
+                        - %  - %  - % - % -
+
+[016] - EJBCA 1.2 (Development)
+  by Tomas Gustavsson (http://freshmeat.net/users/anatom/)
+  Friday, February 1st 2002 06:21
+
+About: EJBCA is a fully functional Certificate Authority in Java using J2EE
+technology. It builds on the J2EE platform to create a robust, high
+performance, platform independent, flexible, and component-based CA to be
+used standalone or integrated in any J2EE app.
+
+Changes: This release includes a command for batch processing, and other
+batch fixes. There are now better error messages when a user applies for a
+cert with a browser. A bug where NextUpdate in CRLs were incorrect was
+fixed, as was a problem receiving certificate replies for subCAs. There is
+now a function to rollover Root CA with same key pair in ca.sh/cmd, a
+Listusers function in ra.sh/cmd, and an Info function in ca.sh/cmd. There
+are also some minor improvements and bugfixes. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ejbca/
+
+                        - %  - %  - % - % -
+
+[017] - eXtensible Data Format 017-stable1 (Stable)
+  by Brian Thomas (http://freshmeat.net/users/bt101/)
+  Friday, February 1st 2002 14:05
+
+Database Internet :: WWW/HTTP :: Indexing/Search Scientific/Engineering
+
+About: eXtensible Data Format (XDF) is a common scientific data format
+based on XML and general mathematical principles.  It can be used
+throughout the scientific disciplines. It features hierarchical data
+structures, any dimensional arrays merged with coordinate information, high
+dimensional tables merged with field information, variable resolution, easy
+wrapping of existing data, user-specified coordinate systems, searchable
+ASCII metadata, and extensibility to new features. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/xdf/
+
+                        - %  - %  - % - % -
+
+[018] - FreeTTS 1.1
+  by Paul Lamere (http://freshmeat.net/users/lamere/)
+  Friday, February 1st 2002 06:22
+
+Multimedia :: Sound/Audio :: Speech
+
+About: FreeTTS is a speech synthesis system written entirely in Java.  It
+is based upon Flite, a small runtime speech synthesis engine developed at
+Carnegie Mellon University. Flite is derived from the Festival Speech
+Synthesis System from the University of Edinburgh and the FestVox project
+from Carnegie Mellon University. 
+
+Changes: FreeTTS now includes a number of changes since 1.0. This release
+includes an improved front-end tokenizer, and a workaround for some sound
+problems on Linux. It is based upon Flite 1.1. 
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/freetts/
+
+                        - %  - %  - % - % -
+
+[019] - FreeVMS 0.0.7 (Unstable kernel)
+  by JKB (http://freshmeat.net/users/jkb/)
+  Friday, February 1st 2002 15:16
+
+System :: Operating System Kernels
+
+About: FreeVMS is an OpenVMS-like operating system which can run on several
+architectures like i386, PPC, Alpha, and many others. It consists of a
+POSIX kernel and a DCL command line interpreter. The only architecture
+currently supported is i386. 
+
+Changes: New features and system services have been included: local event
+flags, more stuff with scheduling, timers, and process control, $clref,
+$forcex, $hiber, $readef, $setef, $schdwk, $synch, $waitfr, and $wake.  It
+is not a complete implementation, but it works with the example programs.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/freevms/
+
+                        - %  - %  - % - % -
+
+[020] - ftp-utils 1.0pre3 (Release)
+  by T Lord (http://freshmeat.net/users/tlord/)
+  Friday, February 1st 2002 02:01
+
+Internet :: File Transfer Protocol (FTP) Software Development Software
+Development :: Libraries
+
+About: The ftp-utils package includes a library that implements the FTP
+protocol (client side) and some shell tools.  Using the shell tools you can
+write scripts which work equally well on local file systems and on remote
+file systems accessible via FTP.   
+
+Changes: A major security bug has been fixed in this release.  Support has
+been added for passive mode data transfer (PASV).  
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ftputils/
+
+                        - %  - %  - % - % -
+
+[021] - FUDform 1.1.1
+  by ilia (http://freshmeat.net/users/Prottoss/)
+  Friday, February 1st 2002 15:30
+
+Communications :: BBS Communications :: Conferencing Internet :: WWW/HTTP
+:: Dynamic Content :: Message Boards
+
+About: FUDforum is a PHP & MySQL forum with many customizable features. It
+supports both threaded & flat views, contains an integrated spell checker
+for messages, includes a private messaging system, and has many other
+features. From the admin side, FUDforum has a number of control panels
+allowing the administrator(s) to easily administer the forum as well as
+change the settings. The layout of the forum is very flexible allowing for
+multiple layout and has an easy CSS editor for quick layout modifications.
+
+
+Changes: All of the buttons used in the forum have been redesigned to work
+better with the layout. This release adds multi-admin functionality and a
+mass mail system for the admin. There are a few bugfixes and small feature
+enhancements.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/fudforum/
+
+                        - %  - %  - % - % -
+
+[022] - Ganglia Cluster Toolkit 2.0.3 (Monitoring core)
+  by Matt Massie (http://freshmeat.net/users/gaiafractal/)
+  Friday, February 1st 2002 20:24
+
+System :: Clustering/Distributed Networks System :: Logging System ::
+Monitoring
+
+About: Ganglia is a massively scalable cluster monitoring   and execution
+environment written at the   University of California, Berkeley Computer
+Science   division as part of the Millennium Project. Ganglia   monitors
+over 25 core host metrics (such as CPU,   load and memory) and any number
+of custom   metrics on clusters with hundreds of nodes. Clients   can plug
+into the Ganglia monitoring core via an   XML interface to generate a
+multitude of useful   visualizations. rrdtool is the tool of choice for Web
+  visualization of cluster status and historical trends. 
+
+Changes: Increased speed of the host security check for the XML port, new
+commandline options for almost all compile-time gmond options, a new
+--safe_host option to allow a host outside of the multicast  channel to
+connect , stripping all quotes (") from gmetric data to keep XML
+well-formed, and improved self-organizing behavior of the gmonds.
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/ganglia/
+
+                        - %  - %  - % - % -
+
+[023] - gettext 0.11
+  by Bruno Haible (http://freshmeat.net/users/bhaible/)
+  Friday, February 1st 2002 15:20
+
+Software Development :: Libraries
+
+About: gettext is the GNU internationalisation library.
+
+Changes: There are several new programs for processing PO files. There is
+support Lisp, Java, and Pascal, better documentation, and improved autoconf
+macros.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/gettext/
+
+                        - %  - %  - % - % -
+
+[024] - GKrellKam 0.3.3
+  by paulcannon (http://freshmeat.net/users/paulcannon/)
+  Friday, February 1st 2002 20:19
+
+Desktop Environment Multimedia :: Graphics :: Viewers
+
+About: GKrellKam is a plugin for GKrellM that displays a periodically
+updated image, such as a  static webcam picture, scaled to fit in a panel.
+
+Changes: A fix for an error message occuring when using a script or
+external program.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/gkrellkam/
+
+                        - %  - %  - % - % -
+
+[025] - GNU shtool 1.6.0
+  by Ralf S. Engelschall (http://freshmeat.net/users/rse/)
+  Friday, February 1st 2002 13:08
+
+System :: Shells
+
+About: GNU shtool is a compilation of small but very stable and portable
+shell scripts into a single shell tool. All ingredients were in successful
+use over many years in various free software projects. The compiled shtool
+program is intended to be used inside the source tree of free software
+packages. There it can overtake various (usually non-portable) tasks
+related to the building and installation of an free software package.
+
+Changes: There is a new "shtool rotate" command for flexible logfile
+rotation, and a new "shtool subst" command for a convenient way to apply
+multiple text substitutions to multiple files at once. This release has
+switched to GNU Autoconf 2.52, and GNU long option support has been added.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/gnushtool/
+
+                        - %  - %  - % - % -
+
+[026] - GraphThing 20020202 (Development)
+  by David Symonds (http://freshmeat.net/users/xoxus/)
+  Friday, February 1st 2002 22:23
+
+Education Scientific/Engineering :: Mathematics Scientific/Engineering ::
+Visualization
+
+About: GraphThing is a tool that allows you to create, manipulate, and
+study graphs. These "graphs" are mathematical objects, that describe the
+relationships between sets; they are not 2D plots, charts, or any other
+sort of visual object. 
+
+Changes: Chromatic polynomial computation, Diameter and Radius statistics,
+and various bugfixes.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/graphthing/
+
+                        - %  - %  - % - % -
+
+[027] - GtkDiskFree 1.6.6 (Stable)
+  by dj-death (http://freshmeat.net/users/djdeath/)
+  Friday, February 1st 2002 15:25
+
+System :: Monitoring
+
+About: GtkDiskFree is a small GUI application written with the Gtk+ library
+which shows how much free space is available on your filesystems, as well
+as some other information related to the filesystem.
+
+Changes: This release has some code improvments, and a bug when compiling
+on Solaris has been fixed. Updating is recommended.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/gtkdiskfree/
+
+                        - %  - %  - % - % -
+
+[028] - harvest 1.7.16
+  by kjl (http://freshmeat.net/users/kjl/)
+  Friday, February 1st 2002 06:04
+
+Internet :: WWW/HTTP :: Indexing/Search Internet :: Z39.50
+
+About: Harvest is a system to collect information and make them searchable
+using a Web interface. Harvest can collect information on internet using
+HTTP, FTP, NNTP, and local files. Supported formats include HTML, DVI, PS,
+fulltext, mail, man pages, news, troff, WordPerfect, C sources, and many
+more. Adding support for new format is easy due to Harvest's modular
+design.
+
+Changes: This version updates the documentation.
+
+License: Free for non-commercial use
+
+URL: http://freshmeat.net/projects/harvest/
+
+                        - %  - %  - % - % -
+
+[029] - Hashish Beta 1 (Stable)
+  by mentat (http://freshmeat.net/users/thementat/)
+  Friday, February 1st 2002 14:03
+
+Security :: Cryptography Software Development :: Build Tools Utilities
+
+About: Hashish is a file or string hashing utility with a GUI frontend. It
+is cross-platform and supports many types of cryptographic hashes
+(including SHA, MD5, and RIPEMD-160). 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/hashish/
+
+                        - %  - %  - % - % -
+
+[030] - HDK Time Tracker 1.2
+  by onelessrockstar (http://freshmeat.net/users/olrs/)
+  Friday, February 1st 2002 18:12
+
+Office/Business Office/Business :: Scheduling
+
+About: HDKTT was designed to track the development of multiple projects. It
+can use jpgraph for making charts.
+
+Changes: The process for turning security on and off has been simplified.
+There are minor bugfixes to admin reporting and time manipulation.
+
+License: Free for non-commercial use
+
+URL: http://freshmeat.net/projects/hdktt/
+
+                        - %  - %  - % - % -
+
+[031] - ht://Dig 3.1.6 (Stable)
+  by Geoff Hutchison (http://freshmeat.net/users/ghutchis/)
+  Friday, February 1st 2002 15:19
+
+Internet :: WWW/HTTP :: Indexing/Search
+
+About: The ht://Dig system is a complete WWW indexing and searching system
+for a domain or intranet. This system is not meant to replace the need for
+internet-wide search systems like Lycos, Infoseek, Google, and AltaVista.
+Instead, it is meant to cover the search needs for a single company,
+campus, or even a particular sub-section of a Web site.
+
+Changes: This release includes a variety of bugfixes, including fixing all
+known security problems in older versions. It adds some frequently
+requested features and has updated, improved documentation. It is
+recommended as an update for all users.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/htdig/
+
+                        - %  - %  - % - % -
+
+[032] - HTML::Template 2.5
+  by Sam Tregar (http://freshmeat.net/users/sunking/)
+  Friday, February 1st 2002 22:20
+
+Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries Software
+Development :: Libraries
+
+About: The HTML::Template module attempts to make using HTML templates
+simple and natural. It extends standard HTML with a few new tags for
+variables, loops, if/else blocks and includes. A file written with HTML and
+these new tags is called a template. Using this module you fill in the
+values for the variables and loops declared in the template. This allows
+you to seperate design (the HTML) from the data, which you generate in the
+Perl script. While there are many other HTML template systems available,
+this module is simple and fast. It doesn't try to reinvent Perl CGI, it
+just augments HTML with a few new and very useful abilities.
+
+Changes: Bugfixes, documentation cleanups, and a new project Web site.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/htmltemplate/
+
+                        - %  - %  - % - % -
+
+[033] - HTTrack Website Copier 3.15
+  by Xavier Roche (http://freshmeat.net/users/xroche/)
+  Friday, February 1st 2002 06:02
+
+Internet :: WWW/HTTP :: Browsers Internet :: WWW/HTTP :: Indexing/Search
+Internet :: WWW/HTTP :: Site Management
+
+About: HTTrack is an easy-to-use offline browser utility. It allows you to
+download a Web site from the Internet to a local directory, building
+recursively all directories, getting HTML, images, and other files from the
+server to your computer. HTTrack arranges the original site's relative
+link-structure. Simply open a page of the mirrored Web site in your
+browser, and you can browse the site from link to link, as if you were
+viewing it online. HTTrack can also update an existing mirrored site, and
+resume interrupted downloads.
+
+Changes: This release includes several fixes concerning fatal IO/socket
+error with large sites and bogus HTTP-referer with protected sites. The
+'K4' option now works, the option --continue+URL(s) now clears previous
+URLs, and there are fixes for various parsing bugs. Several new options
+have also been added. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/httrack/
+
+                        - %  - %  - % - % -
+
+[034] - ICMP Shell 0.2 (Stable)
+  by Peter Kieltyka (http://freshmeat.net/users/elux/)
+  Friday, February 1st 2002 03:12
+
+Communications Security System :: Networking
+
+About: ICMP Shell (ISH) is a telnet-like protocol. It allows users to
+connect to a remote host and to open a shell using only ICMP to send and
+receive data. It has been tested on Linux, BSD and Solaris systems. 
+
+Changes: This version fixes a compiling problem that was encountered on
+some Solaris machines, changes AF_LOCAL to AF_UNIX in ish_open functions,
+rearranges headers in ishell.h, and changes u_intXX_t variables to
+uintXX_t.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ish/
+
+                        - %  - %  - % - % -
+
+[035] - IPFC 1.0.3 (Release)
+  by Tycho Fruru (http://freshmeat.net/users/fpmip/)
+  Friday, February 1st 2002 13:08
+
+Internet :: Log Analysis Security System :: Monitoring
+
+About: IPFC is software and a framework to manage and monitor multiple
+types of security modules across a global network. Security modules can be
+as diverse as packet filters (like netfilter, pf, ipfw, IP Filter,
+checkpoint FW1, etc.), NIDS (Snort, arpwatch, etc.), Web servers, and other
+general devices (from servers to embedded devices). It features log
+collection for different security "agents", dynamic log correlation
+possibilities, and easy extensibility due to the generic database and XML
+message formats used.  
+
+Changes: This release has preliminary support for security advisory
+processing. It also contains a new unified logging system, and various
+frontend fixes. Basic alerting functionality has been added.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ipfc/
+
+                        - %  - %  - % - % -
+
+[036] - IPTables Perl eXpander 2.0
+  by [WaR] (http://freshmeat.net/users/uore/)
+  Friday, February 1st 2002 16:13
+
+Security System :: Networking :: Firewalls
+
+About: IPeX is a simple Perl script that works as a wrapper  for the
+iptables binary, parsing multiple source and destination addresses, ports,
+etc. into several iptables rules  (commands). This allows for simpler
+visual  interpretation of complex rules, and simpler creation  of those
+rules.
+
+Changes: IPeX now expands IP address ranges, ports, targets, protocols,
+interfaces, and ICMP types, using '-' or ':'.  It also accepts '-sp' or
+'-dp' as aliases for --sport and --dport.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ipex/
+
+                        - %  - %  - % - % -
+
+[037] - Java SOS 2.71
+  by ColdJava (http://freshmeat.net/users/coldjava/)
+  Friday, February 1st 2002 06:06
+
+Communications :: Chat Communications :: Email Communications :: File
+Sharing
+
+About: Java SOS is a set of configurable Java servlets for fast site
+building, including Forums, Chat, and Calendar servlets, etc.
+
+Changes: Java SOS now has some new components including servlets and
+filters, as well as updates for existing code.
+
+License: Free for non-commercial use
+
+URL: http://freshmeat.net/projects/javasos/
+
+                        - %  - %  - % - % -
+
+[038] - JBossMX 1.0 Alpha 1 (Development)
+  by Juha Lindfors (http://freshmeat.net/users/juhalindfors/)
+  Friday, February 1st 2002 18:11
+
+Software Development Software Development :: Libraries :: Application
+Frameworks Software Development :: Libraries :: Java Libraries
+
+About: The JBossMX project is a Java Management Extensions implementation
+for the JBoss application server. It is optimized for speed in the MBean
+server invocation bus and will support many of the advanced JMX features
+such as security, transactions, MBean server federation, and fail-over. 
+
+Changes: This is the first developer release of the JBossMX JMX
+implementation. It is not yet 100% feature complete, and is intended for
+developers to take for a spin.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/jbossmx/
+
+                        - %  - %  - % - % -
+
+[039] - Jitac 0.2.0
+  by Konrad Rieck (http://freshmeat.net/users/rieck/)
+  Friday, February 1st 2002 18:14
+
+Multimedia :: Graphics :: Graphics Conversion
+
+About: Jitac is a Java application that converts images into ASCII art by
+associating blocks of the image with ASCII characters. It supports several
+image formats (GIF, JPEG, TIFF, and PNG) and some image manipulations that
+can be performed before the conversion (inversion, grayscale, resize, and
+gamma correction).
+
+Changes: This release has support for HTML output. The ability to create
+colored ASCII art has been added. Several new filters regarding color
+functionality have been added.
+
+License: Other/Proprietary License with Source
+
+URL: http://freshmeat.net/projects/jitac/
+
+                        - %  - %  - % - % -
+
+[040] - jpegextractor 1.0
+  by Marco Schmidt (http://freshmeat.net/users/mschmidt/)
+  Friday, February 1st 2002 16:14
+
+Multimedia :: Graphics :: Graphics Conversion Utilities
+
+About: jpegextractor extracts JPEG streams that are embedded in other
+files. Since it only looks for certain JPEG-specific byte signatures, it
+does not have to know the format of the files that encapsulate the JPEGs
+(like PDF). Several options are provided for naming the output JPEG files.
+
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/jpegextractor/
+
+                        - %  - %  - % - % -
+
+[041] - kio-mac 0.8
+  by Jonathan Riddell (http://freshmeat.net/users/jriddell/)
+  Friday, February 1st 2002 15:15
+
+Desktop Environment :: File Managers Desktop Environment :: K Desktop
+Environment (KDE) System :: Filesystems
+
+About: kio-mac is a KDE ioslave lets you read an HFS+ partition from
+konqueror or any other KDE file dialog. It is a wrapper around the
+commandline hfsplus tools. 
+
+Changes: This release displays hidden files. Locked files are copied as
+read only. It has a nice icon. Sources now use autoconf/automake. A regular
+expression which matched some files as directories has been fixed. Aliases
+now display as links.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/kio-mac/
+
+                        - %  - %  - % - % -
+
+[042] - kludge3d 2002-2-1
+  by dinosaur (http://freshmeat.net/users/dinosaur/)
+  Friday, February 1st 2002 18:09
+
+Multimedia :: Graphics :: 3D Modeling
+
+About: Kludge3d is a simple 3D model editor in the spirit of Worldcraft or
+Milkshape. It is the offspring of several other GTK-based editors, with the
+best features taken from each. As the name implies, kludge3d is a kludge. 
+
+Changes: Several long-standing bugs have been fixed, and lots of new tools
+have been added. The new texture application dialog, in particular, is much
+more useful than in previous releases. Check out the mustang model for an
+example of what kludge3d is now capable of doing.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/kludge3d/
+
+                        - %  - %  - % - % -
+
+[043] - LibCGI 0.7.1 (Stable)
+  by Rafael Steil (http://freshmeat.net/users/rafaelsteil/)
+  Friday, February 1st 2002 09:59
+
+Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+
+About: LibCGI is a library written from scratch to assist in the making of
+CGI appliactions in C. It has support for string manipulation, linked
+lists, cookies, sessions, GET and POST methods, and more. 
+
+Changes: A bug in sess_file_rewrite() that caused a crash when all session
+variables were unregistered together has been fixed.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/libcgi/
+
+                        - %  - %  - % - % -
+
+[044] - LocalSQL 0.0.4
+  by dberton (http://freshmeat.net/users/dberton/)
+  Friday, February 1st 2002 01:54
+
+Database :: Database Engines/Servers
+
+About: LocalSQL provides a library and command line tool   for direct
+invokation and processing of SQL   statements on local databases. A subset
+of SQL92   is implemented, notably 'INSERT UPDATE DELETE  SELECT CREATE
+TABLE CREATE INDEX DROP  TABLE'. Sub-selects are not currently supported. 
+See README.SQL for more information on exactly  what is and is not
+supported. 
+
+Changes: This version removes the dependency on the xbase library. All file
+access is now handled internally, which simplifies and reduces the code.
+There is still cleanup yet to do, but this is the first step towards
+creating simpler, smaller code.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/localsql/
+
+                        - %  - %  - % - % -
+
+[045] - Lyric Display System 0.16
+  by Hybrid (http://freshmeat.net/users/cjdebenh/)
+  Friday, February 1st 2002 02:12
+
+Multimedia :: Graphics :: Presentation
+
+About: The Lyric Display System is used to edit/display song lyrics on a
+second screen/projector for use at singing events such as church services.
+
+
+Changes: This release adds an applications menu. You can now double-click a
+song to add it to the playlist. There are also some miscellaneous
+bugfixes.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/lds/
+
+                        - %  - %  - % - % -
+
+[046] - Magma 1.0pre1 (Pre Release)
+  by Anders Lindén (http://freshmeat.net/users/connyosis/)
+  Friday, February 1st 2002 15:31
+
+Multimedia :: Sound/Audio :: CD Audio :: CD Writing System :: Archiving ::
+Backup
+
+About: Magma is a bash script designed to make CD burning easier. It
+supports burning normal data CDs, audio CDs, and blank CDRWs. It is useful
+for burning and for creating ISO files. 
+
+Changes: This release has lots of small fixes. The annoying mkisofs bug is
+solved, multisession is supported, driver options are supported, and more.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/magma/
+
+                        - %  - %  - % - % -
+
+[047] - MakeNG: The Superior Build System 1.8 (Stable)
+  by Benn Bollay (http://freshmeat.net/users/bbollay/)
+  Friday, February 1st 2002 10:04
+
+Software Development :: Build Tools
+
+About: MakeNG is a system of makefiles that, in   conjuncture with a patch
+to GNU Make, provides a   concise, extensible, logically organized and
+easily   modified system of makefiles to build any source   tree or
+combination of components you can   envision. MakeNG sports a fully
+documented   extensible API on top of the classic GNU Make   syntax (which
+is great for backwards   compatibility). 
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/makeng/
+
+                        - %  - %  - % - % -
+
+[048] - mod_ssl 2.8.6-1.3.23
+  by Ralf S. Engelschall (http://freshmeat.net/users/rse/)
+  Friday, February 1st 2002 13:06
+
+Internet :: WWW/HTTP :: HTTP Servers
+
+About: mod_ssl provides provides strong cryptography for the Apache 1.3
+webserver via the Secure Sockets Layer (SSL v2/v3) and Transport Layer
+Security (TLS v1). It is based on the SSL/TLS toolkit OpenSSL and supports
+all SSL/TLS related functionality, including RSA and DSA/DH cipher support,
+X.509 CRL checking, etc. Additionally it provides special Apache related
+facilities like DBM and shared memory based inter-process SSL session
+caching. per-URL SSL session renegotiations, DSO support, etc.
+
+Changes: Apache has been updated to 1.3.23. A subtle indexing bug in SHMCB
+has been fixed. The SHMCB remove operation is performed under mutual
+exclusion to prevent an inter-process synchronization problem. This release
+makes sure that mod_ssl does not segfault if SCOREBOARD_SIZE is less than
+1024. An SDBM patch has been merged in that fixes a problem with the sdbms
+.dir file which arrises when a second .dir block is needed for the first
+time.
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/mod_ssl/
+
+                        - %  - %  - % - % -
+
+[049] - monit 2.2.1
+  by hauk (http://freshmeat.net/users/hauk/)
+  Friday, February 1st 2002 18:14
+
+Internet System :: Networking :: Monitoring System :: Systems
+Administration
+
+About: monit is a utility for monitoring and managing daemons or similar
+programs running on a Unix system. It will start specified programs if they
+are not running and restart programs not responding. It supports a daemon
+mode (poll programs at a specified interval, and start, stop, and restart
+programs), logging (syslog or your own logfile), configuration (with a
+comprehensive controlfile) runtime and TCP/IP port checking, process
+status, and timeout and alert notification. It provides an HTTP interface.
+
+Changes: This release fixes a problem with Basic Authentication overriding
+the Host Allow List authentication. It also fixes build problems on Solaris
+and on FreeBSD (with only GNU Portable Threads).
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/monit/
+
+                        - %  - %  - % - % -
+
+[050] - Monkey HTTP Daemon 0.2.6 (Development)
+  by EdsipeR (http://freshmeat.net/users/EdsipeR/)
+  Friday, February 1st 2002 22:21
+
+Internet :: WWW/HTTP :: Dynamic Content Internet :: WWW/HTTP :: HTTP
+Servers
+
+About: Monkey HTTP Daemon is a small and fast Web server for Linux written
+in C. Its features include Spanish docs and messages, GET, Post & HEAD
+methods, CGI support, a config file (optional for every user), mime.types
+file,virtualhost support, deny URL & IP, and the ability to run as a
+different user (e.g., nobody). 
+
+Changes: A new timeout in SendFile(), and minor bugfixes.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/monkey/
+
+                        - %  - %  - % - % -
+
+[051] - motor 3.2.0
+  by Konstantin Klyagin (http://freshmeat.net/users/konst/)
+  Friday, February 1st 2002 18:10
+
+Software Development :: Build Tools Software Development :: Code Generators
+Software Development :: Compilers
+
+About: Motor is a text-mode integrated programming environment for Linux.
+It consists of an editor with syntax highlighting, a project manager, a
+makefile generator, gcc, ctags, gdb, autoconf/automake and grep front-ends.
+CVS integration is also provided. It allows one to edit, compile, and debug
+programs without a need to leave the IDE, automatically check in/out files
+from a CVS repository and import projects into CVS, and generate
+distribution packages (tar.gz and RPM). The color schemes are
+customisable.
+
+Changes: This release fixes some bugs in templates, the grepper tool, and
+project manager modules.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/motor/
+
+                        - %  - %  - % - % -
+
+[052] - my own diary 1.4 (Stable)
+  by maco (http://freshmeat.net/users/maco/)
+  Friday, February 1st 2002 20:52
+
+Internet :: WWW/HTTP :: Dynamic Content Internet :: WWW/HTTP :: Dynamic
+Content :: News/Diary Office/Business :: News/Diary
+
+About: my own diary is a very simple PHP diary, without  images, etc. A
+database is not required. It is just 4kb of PHP and HTML code.
+
+Changes: An absolutely new system of storing files (which is not compatible
+with previouse versions) quite a few bugfixes, preparation and recoding to
+make a very flexible news/diary/journal system (no DB used), and external
+CSS support.
+
+License: Freeware
+
+URL: http://freshmeat.net/projects/mod/
+
+                        - %  - %  - % - % -
+
+[053] - Netjuke 1.0b8 (Application)
+  by Artekopia (http://freshmeat.net/users/artekopia/)
+  Friday, February 1st 2002 20:39
+
+Database :: Front-Ends Games/Entertainment Internet :: WWW/HTTP
+
+About: The Artekopia Netjuke is a Web-Based Audio Streaming Jukebox using
+PHP and an increasing choice of databases. It supports MP3, Ogg Vorbis, and
+other music file formats, language packs (English and French), multi-level
+security, shared and private playlists, random playlists, images, and
+more.
+
+Changes: Numerous bugfixes, performance improvements, database changes, and
+feature upgrades and additions. The previously separate installer/upgrader
+module is also part of the netjuke download. 
+
+License: BSD License
+
+URL: http://freshmeat.net/projects/netjuke/
+
+                        - %  - %  - % - % -
+
+[054] - nInvaders 0.0.3
+  by dettus (http://freshmeat.net/users/dettus/)
+  Friday, February 1st 2002 22:23
+
+Games/Entertainment :: Arcade
+
+About: nInvaders is a Space Invaders clone for ncurses.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ninvaders/
+
+                        - %  - %  - % - % -
+
+[055] - OdeiaVir 0.4.3 (Development)
+  by Juan Carlos Castro y Castro (http://freshmeat.net/users/JCCyC/)
+  Friday, February 1st 2002 16:12
+
+Communications :: Email :: Filters
+
+About: OdeiaVir intercepts email messages about to go into a user's qmail
+mailbox (with preliminary Sendmail support in the Experimental branch) and
+scans them for viruses. Currently supported AV packages are McAfee
+VirusScan, F-Prot, Panda, Sophos Sweep, CA InoculateIT, GeCAD RAV, and the
+OpenAntivirus ScannerDaemon. Others will follow.
+
+Changes: The /tmp cleanup bug should finally be fixed, and there is
+Kaspersky support (both are backports from the experimental branch).
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/odeiavir/
+
+                        - %  - %  - % - % -
+
+[056] - ol'bookmarks manager 0.5.3 (Stable)
+  by JCPP (http://freshmeat.net/users/jcpp/)
+  Friday, February 1st 2002 18:13
+
+Internet :: WWW/HTTP :: Site Management
+
+About: On-line bookmarks manager is a Web interface which allows you to
+browse, add, and modify private and personal bookmarks. It includes
+authentication/cookies, categories, advanced search, themes, and more. 
+
+Changes: The PostgreSQL autoincrement id of bookmarks has been fixed. HTTP
+internal redirections have been rewritten.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/olbookmarks/
+
+                        - %  - %  - % - % -
+
+[057] - OpenAFS 1.2.3
+  by brashear (http://freshmeat.net/users/derrickbra/)
+  Friday, February 1st 2002 01:55
+
+Communications :: File Sharing System :: Filesystems
+
+About: AFS is a distributed filesystem which offers a client-server
+architecture, transparent data migration abilities, scalability, a single
+namespace, and integrated ancillary subsystems.
+
+Changes: The Linux client has several fixes including masking signals in
+afsd system call helpers, holding signals while user processes are blocking
+in AFS calls, and dealing with events occurring before they are slept for.
+Other ports have minor bugfixes.
+
+License: IBM Public License
+
+URL: http://freshmeat.net/projects/openafs/
+
+                        - %  - %  - % - % -
+
+[058] - Organon 0.5.1 (Stable)
+  by Basilios (http://freshmeat.net/users/basilios/)
+  Friday, February 1st 2002 06:27
+
+Software Development Software Development :: Build Tools
+
+About: Organon is a project manager that uses the Perl/Tk module. It is
+written for those who use stand-alone editors to write their code but would
+like to have a tool to manage the file groups they work with. It can be
+used with any programming language, and it can be easily tailored to match
+your needs. You can configure the standard tools (dedicated to editing,
+compilation, and execution), and you can define any number of new user
+tools. Each tool (standard or user-defined) is associated with a string
+containing shell commands to be executed. 
+
+Changes: Organon can now run projects and execute tools in a terminal
+window. The terminal emulator can be defined in the Configure Standard
+Tools dialog. The way to define Organon's behavior when capturing stdout
+and stderr for standard and user-defined tools is now more flexible: there
+is a drop-down menu instead of a group of checkboxes. Finally, the "--path"
+command-line switch can now be used to choose a path in which to open the
+first project of the session.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/organon/
+
+                        - %  - %  - % - % -
+
+[059] - Pan 0.11.1.94
+  by Charles Kerr (http://freshmeat.net/users/charleskerr/)
+  Friday, February 1st 2002 16:17
+
+Communications :: Usenet News
+
+About: Pan is a newsreader, loosely based on Agent and Gravity, which
+attempts to be pleasant to use for new and advanced users alike. It has all
+the typical features found in newsreaders, and also supports offline
+reading, multiple connections, and a number of features for power users and
+alt.binaries fans.
+
+Changes: This bugfix release corrects a handful of nasty GUI lockups,
+crashes, and deadlocks.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/pan/
+
+                        - %  - %  - % - % -
+
+[060] - PLplot 5.1.0 (Stable)
+  by Alan W. Irwin (http://freshmeat.net/users/alanirwin/)
+  Friday, February 1st 2002 16:15
+
+Multimedia :: Graphics :: Presentation Scientific/Engineering ::
+Visualization
+
+About: PLplot is a library of C functions that are useful for making
+scientific plots from programs written in C, C++, Fortran, Octave, Python,
+and Tcl/Tk.  It can be used to create standard x-y plots, semi-log plots,
+log-log plots, contour plots, 3D plots, shade (gray-scale and color) plots,
+mesh plots, bar charts, and pie charts. Multiple graphs (of the same or
+different sizes) may be placed on a single page with multiple lines in each
+graph. Different line styles, widths, and colors are supported. A virtually
+infinite number of distinct area fill patterns may be used. There are
+almost 1,000 characters in the extended character set, including four
+different fonts, the Greek alphabet, and a host of mathematical, musical,
+and other symbols. The fonts can be scaled to any desired size. A variety
+of output devices and file formats are supported, including a metafile
+format which can be subsequently rendered to any device/file. New devices
+and file formats can be easily added by writing a driver routine. 
+
+Changes: This release works on a wide variety of platforms. There are good
+reports for Windows systems (98, NT, and 2000), Mac OS X, several Unix
+systems, and of course for Linux. It also has expanded examples, improved
+documentation, dynamically loadable device drivers (including a new
+Computer Graphics Metafile driver), and experimental versions of an image
+plotting function, a PyQT GUI, and a Java front end.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/plplot/
+
+                        - %  - %  - % - % -
+
+[061] - Project Labrador 0.5
+  by Tom Bradford (http://freshmeat.net/users/Bradford/)
+  Friday, February 1st 2002 15:28
+
+Software Development :: Code Generators Software Development :: Object
+Brokering
+
+About: Labrador is an open source modular Web Services Framework. It is
+designed to be incredibly simple to use for developers who are programming
+Web services, and easy to extend for those developers who need the
+framework to provide additional functionality.  
+
+Changes: Several major bugs have been fixed, including a major oversight in
+the XML-RPC implementation having to do with structure marshalling. A basic
+Registry has been implemented. A Describer based on a simple description
+language called SWSS has been implemented. There is still no SOAP
+implementation, but it is in the works.
+
+License: The Apache License
+
+URL: http://freshmeat.net/projects/labrador/
+
+                        - %  - %  - % - % -
+
+[062] - ProMA 0.6
+  by s-mag (http://freshmeat.net/users/smag/)
+  Friday, February 1st 2002 20:34
+
+Database :: Front-Ends
+
+About: ProMA is a PHP4-based system for administrating a ProFTPd server,
+storing users in a MySQL database.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/proma/
+
+                        - %  - %  - % - % -
+
+[063] - PT 0.1.0
+  by pt_development (http://freshmeat.net/users/pt1234/)
+  Friday, February 1st 2002 15:21
+
+Printing Utilities
+
+About: PT is an easy-to-use, fast, and configurable printing tool for
+viewing and managing print jobs of the Common UNIX Printing System (CUPS).
+You can use it to delete, hold, and release print jobs, and to move them to
+another printer. 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ptprint/
+
+                        - %  - %  - % - % -
+
+[064] - pygame 1.4
+  by Pete Shinners (http://freshmeat.net/users/shredwheat/)
+  Friday, February 1st 2002 01:54
+
+Games/Entertainment Multimedia :: Graphics Multimedia :: Sound/Audio
+
+About: Pygame is a set of Python extension modules designed for writing
+games. The core of pygame is wrapped on top of the SDL library.
+
+Changes: This release adds OSX support. There are also plenty of small
+enhancements and bugfixes, including more control over audio cd playback,
+cleaner rotations, and tracebacks on segfaults. The regular documentation
+updates are included, along with several updated tutorials.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/pygame/
+
+                        - %  - %  - % - % -
+
+[065] - ReqTools 0.1.1
+  by fsoft (http://freshmeat.net/users/fsoft/)
+  Friday, February 1st 2002 06:23
+
+Software Development :: Libraries
+
+About: ReqTools is a library to help developers create requester windows in
+graphic applications under X. It is based on GTK+, and its APIs are very
+flexible and easy to use. It offers a lot of ready to use requesters, and
+the user can create his/her own. It comes with complete documentation in
+both HTML and PDF format.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/reqtools/
+
+                        - %  - %  - % - % -
+
+[066] - Secure FTP Wrapper 2.0 PR 2
+  by glub (http://freshmeat.net/users/glub/)
+  Friday, February 1st 2002 06:05
+
+Internet :: File Transfer Protocol (FTP) Security Security :: Cryptography
+
+About: Secure FTP Wrapper is a server based package  that enables an
+existing FTP server to  become a  Secure FTP server. In this release the
+wrapper  allows a Secure Sockets  Layer (SSL) connection to be made to your
+FTP server.
+
+Changes: There are some minor bug fixes in this release.
+
+License: Other/Proprietary License with Free Trial
+
+URL: http://freshmeat.net/projects/ftpswrap/
+
+                        - %  - %  - % - % -
+
+[067] - Securepoint Firewall and VPN Server 2.0.6
+  by Lutz Hausmann (http://freshmeat.net/users/lutzhausmann/)
+  Friday, February 1st 2002 06:08
+
+Communications Internet Security
+
+About: Securepoint Firewall and VPN Server is a high-performance
+application designed to offer full protection for network assets. The
+Securepoint is a complete firewall and VPN software system with an
+operation system, based on a secure Linux. You can use the firewall on a
+standard PC with two to five network cards. Securepoint Firewall and VPN
+Server is easy to install and administer. The client is available in
+English, German and Spanish.
+
+Changes: This release enables compatibility with Checkpoint VPN-1, and
+includes a new pfs (perfect forward secrecy) feature for IPSec. The squid
+proxy server now works better with some problem websites, and the gre
+protocol can now used for static NAT.
+
+License: Free for non-commercial use
+
+URL: http://freshmeat.net/projects/securepointfirewall/
+
+                        - %  - %  - % - % -
+
+[068] - Siege 2.50 (Stable)
+  by Jeffrey Fulmer (http://freshmeat.net/users/jdfulmer/)
+  Friday, February 1st 2002 10:00
+
+Internet :: WWW/HTTP Internet :: WWW/HTTP :: Site Management System ::
+Benchmark
+
+About: Siege is a regression test and benchmark utility. It can stress test
+a single URL with a user defined number of simulated users, or it can read
+many URLs into memory and stress them simultaneously. The program reports
+the total number of hits recorded, bytes transferred, response time,
+concurrency, and return status. Siege supports HTTP/1.0 and 1.1 protocols,
+GET and POST directives, cookies, transaction logging, and basic
+authentication. Its features are configurable on a per user basis. 
+
+Changes: This version includes a major architectural overhaul as the
+program was changed from a forked model to a multi-threaded one, and also
+features lower memory overhead and improved performance.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/siege/
+
+                        - %  - %  - % - % -
+
+[069] - SILC 0.7.5 (Client)
+  by priikone (http://freshmeat.net/users/priikone/)
+  Friday, February 1st 2002 05:59
+
+Communications Communications :: Chat Communications :: Conferencing
+
+About: SILC (Secure Internet Live Conferencing) is a protocol which
+provides secure conferencing services in the Internet over insecure
+channels. SILC superficially resembles IRC, although they are very
+different internally. The purpose of SILC is to provide secure conferencing
+services. Strong cryptographic methods are used to secure all traffic, and
+all messages are encrypted and authenticated. The SILC also supports secure
+file transferring. The SILC is delivered as SILC Client for end users, SILC
+Server for system administrators, and SILC Toolkit for application
+developers.
+
+Changes: This version includes rewritten user and channel management
+system, the window resize crash fixed, and memory leaks fixed. Other minor
+bugfixes were also made.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/silc/
+
+                        - %  - %  - % - % -
+
+[070] - Single System Image Clusters for Linux 0.6.0 (Development)
+  by Compaq SSI Clustering Laboratory (http://freshmeat.net/users/cpqssi/)
+  Friday, February 1st 2002 20:39
+
+System :: Clustering/Distributed Networks System :: Operating System
+Kernels System :: Operating System Kernels :: Linux
+
+About: The Single System Image (SSI) project leverages both Compaq's
+NonStop Clusters for Unixware technology and other open source technology
+to provide a full, highly available SSI environment for Linux. Goals for
+SSI Clusters include availability, scalability, and manageability, built
+from standard servers.   
+
+Changes: Use of Linux 2.4.16 and a slightly modified OpenGFS 0.0.92,
+greatly improved installation and booting, an integrated Mosix load
+leveler, preliminary Linux Virtual Server (LVS) integration, support for
+x86 and Alpha, preliminary User-Mode Linux (UML) support, support for Red
+Hat, Caldera, and Debian, inclusion of Cluster Infrastructure (CI) 0.6.0
+(featuring a cleaner registration interface and improved node monitor),
+better support for external networking configuration, and inclusion of a
+current snapshot of Cluster File System (CFS) code.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/ssic-linux/
+
+                        - %  - %  - % - % -
+
+[071] - Sitenews 0.10 (Beta)
+  by JP Durman (http://freshmeat.net/users/johnnyplayer/)
+  Friday, February 1st 2002 20:54
+
+Internet :: WWW/HTTP :: Dynamic Content Internet :: WWW/HTTP :: Dynamic
+Content :: CGI Tools/Libraries Internet :: WWW/HTTP :: Dynamic Content ::
+News/Diary
+
+About: Sitenews is a crossplatform, multi-user news management tool.  You
+can add, edit, or delete entire newsmessages including pictures, automatic
+date, etc. 
+
+Changes: Some changes to the cookies part of login.php (it seemed a lot of
+people with various versions of PHP couldn't login anymore).
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/sitenews/
+
+                        - %  - %  - % - % -
+
+[072] - TAcHash 0.2
+  by Arthur Corliss (http://freshmeat.net/users/acorliss/)
+  Friday, February 1st 2002 20:27
+
+Software Development
+
+About: TAcHash provides hash objects (also known as associative arrays) for
+Delphi.  
+
+Changes: New Delete and AssignValues methods, new sort capabilities in the
+Keys methods, and optimisation of the AssignValue method.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/tachash/
+
+                        - %  - %  - % - % -
+
+[073] - taglog 0.1.30
+  by John Lines (http://freshmeat.net/users/paladinfm/)
+  Friday, February 1st 2002 03:03
+
+Office/Business :: News/Diary Utilities
+
+About: Taglog is designed for anyone who spends most of their day sitting
+at a computer, working on various projects. You can make notes about what
+you do, as you go along, associating them with the projects you work on. At
+the end of the week you can produce a report of how your time was spent,
+broken down by project for booking purposes. You can view previous entries,
+by date, or by project. You can enter the actions you intend to take,
+associate them with a project, and mark them as active, or complete.
+
+Changes: The active project can now be switched from the Projects/View
+window by clicking on the project labels, allowing taglog to be run with
+the main window iconified. This saves screen space on systems where this is
+limited.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/taglog/
+
+                        - %  - %  - % - % -
+
+[074] - Tcl/Tk Project Manager 0.1.3
+  by Sergey Kalinin (http://freshmeat.net/users/banzaj/)
+  Friday, February 1st 2002 03:11
+
+Software Development :: Build Tools
+
+About: Tcl/Tk Project Manager is a full IDE for programming in Tcl/Tk. It
+includes a project and file manager, a source editor with syntax
+highlighting and procedure navigation, a context-sensitive help system, and
+much more. It requires Tcl/Tk (http://www.scriptics.com), BWidget
+(http://sourceforge.net/projects/tcllib), or ActiveTcl
+(http://tcl.activestate.com). 
+
+Changes: This release replaces SelectDir on standard dialog
+tk_chooseDirectory, fixes an error in TkDIFF+ with the convert date
+procedure, adds a "find history" in the Find dialog, and fixes hot keys
+bindings to Find and Replace dialogs and a bug with the "File modify"
+flag.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/projman/
+
+                        - %  - %  - % - % -
+
+[075] - Tilde 0.4.0 (Stable)
+  by Tobias Rundström (http://freshmeat.net/users/tildesoftware/)
+  Friday, February 1st 2002 06:04
+
+Internet :: WWW/HTTP :: HTTP Servers Internet :: WWW/HTTP :: Site
+Management Software Development :: Interpreters
+
+About: Tilde is a web language, a web server, and a content management tool
+(CMT). The web language is an alternative to PHP and VBscript with some
+significant differences. It is a genuine embedded language that makes no
+distinction between HTML and code, and is specifically designed for the
+web. It supports many different international standards
+(LDAP,IMAP4,SQL92,TLS, etc.) and is suitable for integration into existing
+environments. It has a general database design, which makes it easy for use
+in building dynamic web solutions without being an expert in databases.
+
+Changes: This release introduces a rewrite of the SMTP and IMAP support and
+network code. There are also some bugfixes.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/tilde/
+
+                        - %  - %  - % - % -
+
+[076] - Tilde pre0.5.0 (Development)
+  by Tobias Rundström (http://freshmeat.net/users/tildesoftware/)
+  Friday, February 1st 2002 06:29
+
+Internet :: WWW/HTTP :: HTTP Servers Internet :: WWW/HTTP :: Site
+Management Software Development :: Interpreters
+
+About: Tilde is a web language, a web server, and a content management tool
+(CMT). The web language is an alternative to PHP and VBscript with some
+significant differences. It is a genuine embedded language that makes no
+distinction between HTML and code, and is specifically designed for the
+web. It supports many different international standards
+(LDAP,IMAP4,SQL92,TLS, etc.) and is suitable for integration into existing
+environments. It has a general database design, which makes it easy for use
+in building dynamic web solutions without being an expert in databases.
+
+Changes: This release includes CYGWIN support, and a secure cookie fix.
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/tilde/
+
+                        - %  - %  - % - % -
+
+[077] - TM4J 0.6.0 beta 1 (Development)
+  by kal (http://freshmeat.net/users/kalahmed/)
+  Friday, February 1st 2002 15:24
+
+Software Development :: Libraries
+
+About: TM4J is a topic map processing toolkit and a set of topic map
+processing tools. Topic maps are an ISO standard for the interchange of
+information structures which can be used to represent ontologies, business
+data and processes, individual knowledge and opinions, and more.  The goal
+of the TM4J project is to develop high-quality, Open Source software for
+the creation, manipulation, and exchange of topic maps.
+
+Changes: The consistency of API with the XML Topic Maps specification has
+been improved. There are fixes to the Ozone persistent store, and much
+improved Javadoc documentation.
+
+License: The Apache License
+
+URL: http://freshmeat.net/projects/tm4j/
+
+                        - %  - %  - % - % -
+
+[078] - UDS Collection 1.0.2
+  by Julian v. Bock (http://freshmeat.net/users/julianb/)
+  Friday, February 1st 2002 10:03
+
+Software Development :: Libraries
+
+About: The UDS (Useful Development Stuff) Collection is a C++ library that
+provides development and debugging facilities such as automatic searching
+for memory leaks and zombie objects, backtraces at runtime, an alternative
+set of function objects, classes for reference counting, copy-on-write and
+garbage collection, POSIX threads wrapper classes, a socket API that
+includes support for TCP, UDP, X.25, and Unix domain sockets, m4 macros,
+and much more.  
+
+Changes: This release fixes problems relating to memory leak checking,
+symbol lookups have been fixed, the BRead* functions for strings now work
+on non-blocking sockets, and it is now possible to filter memory leaks by
+filename.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/uds/
+
+                        - %  - %  - % - % -
+
+[079] - Vstr string library 0.7.2
+  by Nevyn (http://freshmeat.net/users/nevyn/)
+  Friday, February 1st 2002 02:16
+
+Software Development :: Libraries
+
+About: Vstr is a string library designed for network communication, but
+applicable in a number of other areas. It works on the idea of separate
+nodes of information, and works on the length/ptr model and not the
+termination model a la "C strings". It can also do automatic referencing
+for mmap() areas of memory, and includes a portable version of a
+printf-like function.
+
+Changes: This release adds some extra functions, including vstr_split()
+which works similar to perl split() (although no regexp), functions to
+parse numbers from a string, and "shortcut" functions for
+mapping/reading/writing fds with the string.  Some extra examples were also
+added, including an "nl" command. 
+
+License: GNU Lesser General Public License (LGPL)
+
+URL: http://freshmeat.net/projects/vstr/
+
+                        - %  - %  - % - % -
+
+[080] - web2ldap 0.10.0
+  by Michael Stroeder (http://freshmeat.net/users/stroeder/)
+  Friday, February 1st 2002 10:00
+
+Internet :: WWW/HTTP System :: Networking
+
+About: web2ldap is a full-featured LDAP client written in Python and
+designed to run as a stand-alone Web gateway or as a FastCGIServer under
+the control of Apache with mod_fastcgi.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/web2ldap/
+
+                        - %  - %  - % - % -
+
+[081] - WebGUI 3.1.0
+  by Rizen (http://freshmeat.net/users/rizen/)
+  Friday, February 1st 2002 02:39
+
+Internet :: WWW/HTTP :: Dynamic Content Internet :: WWW/HTTP :: Site
+Management Office/Business
+
+About: WebGUI is a platform built to allow average  business users to build
+and maintain complex Web  sites. It is modular, pluggable, and platform 
+independent. It was designed to allow the people  who create the content,
+to manage it online,  rather than content management taking up the  time of
+busy IT Staff. Whether you are building a  consumer site, an intranet, or
+an extranet, WebGUI  has something to offer. 
+
+Changes: This release adds a Download Manager widget, a file typing system,
+a mod_perl preload script to lessen memory usage and add database
+connection pooling, several enhancements to the SQL Report, a PageTitle
+macro, an Include macro, an Execute macro, support for mod_rewrite, and an
+image management system. There are also a few minor improvements and bug
+fixes.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/webgui/
+
+                        - %  - %  - % - % -
+
+[082] - WebUMake Instant Helper 1.0
+  by Way to the Web (http://freshmeat.net/users/waytotheweb/)
+  Friday, February 1st 2002 14:03
+
+Communications :: Chat Internet Internet :: WWW/HTTP :: Dynamic Content ::
+CGI Tools/Libraries
+
+About: WebUMake Instant Helper makes it easy for visitors to your Web site
+to chat with you, live.  It tells you who is revisiting and whom you have
+chatted with previously.  
+
+License: Other/Proprietary License
+
+URL: http://freshmeat.net/projects/wih/
+
+                        - %  - %  - % - % -
+
+[083] - Wlan FE 1.0.0 (Stable)
+  by rious (http://freshmeat.net/users/rious/)
+  Friday, February 1st 2002 13:03
+
+System :: Networking
+
+About: WlanFE is a GTK+ based GUI frontend for the wlan-ng 802.11b wireless
+networking driver for Linux. It allows you to change your SSID, your
+Channel, between Infrastructure and Ad-Hoc mode, and more. It also allows
+you to easily set up WEP.
+
+Changes: Support for the loading and saving of configurations has been
+added.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/wlanfe/
+
+                        - %  - %  - % - % -
+
+[084] - Xpdf 1.00
+  by Derek Noonburg (http://freshmeat.net/users/derekn/)
+  Friday, February 1st 2002 20:31
+
+Multimedia :: Graphics :: Graphics Conversion Multimedia :: Graphics ::
+Viewers Printing
+
+About: Xpdf is a viewer for Portable Document Format (PDF) files. It also
+comes with two other programs: pdftops and pdftotext which convert PDF
+files to postscript and plain text respectively. Xpdf is designed to be
+small and efficient. It does not use the Motif or Xt libraries. It uses
+standard X fonts.
+
+Changes: A complete rewrite  of the code that handles font encodings
+(everything is Unicode-based), and a switch to an all-new config file
+system.
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/xpdf/
+
+                        - %  - %  - % - % -
+
+[085] - Zaval Database Front-end 1.1.0 (Stable)
+  by Alexander Ivanyukovich (http://freshmeat.net/users/ivanyukovich/)
+  Friday, February 1st 2002 02:14
+
+Database Database :: Front-Ends Internet :: WWW/HTTP
+
+About: Zaval Database Front-end is a light and functional  Web-based
+front-end to any database for which you have JDBC drivers. It allows raw
+SQL code execution and is limited only by the extent of the database's SQL
+support. It supports multiple  query execution, alternate languages, and
+more.
+
+Changes: This release introduces a file upload and queries execution
+feature, and a simple filename change feature. A problem with HTML code
+representation in browser on select queries was fixed, as was a problem
+with correct query encoding representation after query execution (encodings
+different from ISO-8859-1). 
+
+License: GNU General Public License (GPL)
+
+URL: http://freshmeat.net/projects/db-front-end/
+
+
+
+- - --- - --- - . ---.------- ..----  .-.----- --.--.- - --..--.-
+
+
+_______________________________________________
+The freshmeat daily newsletter
+To unsubscribe, send email to freshmeat-news-request@lists.freshmeat.net
+or visit http://lists.freshmeat.net/mailman/listinfo/freshmeat-news
+

@@ -1,56 +1,40 @@
-README for Mail::Freshmeat
-
-                           Mail::Freshmeat
-                           ===============
+Mail::Freshmeat version 1.16
+============================
 
 Mail::Freshmeat is a parser for the daily newsletters from
 <http://freshmeat.net/>.
 
+DOCUMENTATION
 
-Uses
-----
+POD-format documentation is included in Freshmeat.pm.
+POD is readable with the 'perldoc' utility.
 
-See <http://www.new.ox.ac.uk/~adam/computing/fmscore/> for what may be
-the only sensible application of this module.  (Quick summary: fmscore
-is a Perl5 program which uses Mail::Freshmeat to parse freshmeat daily
-e-mail newsletters, and then rank them by interest according to highly
-flexible user-supplied ranking rules. Articles below a specified score
-will be removed from the output. fmscore is ideal for use as a
-procmail filter.)
-
-Prerequisites
--------------
-
-This suite requires Perl 5.005 or higher.  Mail::Freshmeat also needs
-Mail::Internet, newer versions of which require Mail::Header.
-
-Installation
-------------
-
-See INSTALL.
-
-Documentation
--------------
-
-POD-format documentation is included in Freshmeat.pm.  POD is readable
-with the 'perldoc' utility.
-
-Support
--------
+SUPPORT
 
 Questions, bug reports, useful code bits, and suggestions for
-Mail::Freshmeat should just be sent to me at <adam@spiers.net>.
+Mail::Freshmeat should be sent to me at <afoxson@pobox.com>.
 
-Availability
-------------
+AVAILABILITY
 
 The latest version of Mail::Freshmeat is available from the
 Comprehensive Perl Archive Network (CPAN).  Visit
 <http://www.perl.com/CPAN> to find a CPAN site near you.
 
-Copyright
----------
+COPYRIGHT
 
-(c) 1999, Adam Spiers <adam@spiers.net>, all rights reserved.
+Copyright (c) 2002 Adam J. Foxson. All rights reserved.
+Copyright (c) 1999-2000 Adam Spiers. All rights reserved.
+
+LICENSE
+
 This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+See COPYING for details
